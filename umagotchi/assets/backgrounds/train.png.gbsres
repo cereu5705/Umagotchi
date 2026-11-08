@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "417cf8f0-fc02-44d1-933b-ed61f37ab88c",
+  "name": "train",
+  "symbol": "bg_train",
+  "tileColors": "",
+  "filename": "train.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

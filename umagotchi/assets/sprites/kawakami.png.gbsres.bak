@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "7285db87-de94-413e-82aa-eed6f2bd4b48",
+  "name": "kawakami",
+  "symbol": "sprite_kawakami",
+  "states": [
+    {
+      "id": "e258f822-2854-454e-87f8-58b1135902e6",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "2cf614ae-852c-42f8-a5b1-9f15bf472f7b",
+          "frames": [
+            {
+              "id": "9baf22b9-b4c1-4b78-8e6f-3e975eb6ecb9",
+              "tiles": [
+                {
+                  "id": "eaaa00e0-a626-48ce-990f-a1661a56fbce",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "edfd4e36-e581-4983-8ef4-0f9641eeb934",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "97b19aa2-f9f0-4cf9-83dd-8de86f1cbfa9",
+          "frames": [
+            {
+              "id": "38d29e9f-1fa5-40e4-ac41-dc9365f5d078",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "913e9f9e-72cb-4a78-a782-2ea435f5adfe",
+          "frames": [
+            {
+              "id": "b60d2f48-151f-47b2-bf9a-85eea2c1294b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5f8efd02-c5a4-4175-bcb1-42a4586d0a63",
+          "frames": [
+            {
+              "id": "4f8658c5-c650-4ab7-809b-36f6aa436787",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d07a2e73-2a17-44a8-bfc5-74a14392c0cc",
+          "frames": [
+            {
+              "id": "ea40abc5-464e-4970-915c-8fea1906ad3c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e8b32687-5230-4cec-b378-bd41ca3556d0",
+          "frames": [
+            {
+              "id": "67103a72-88cd-4910-9c4b-c38188bbeb93",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a13dd393-aea8-4046-9b7a-e2d3eef92e30",
+          "frames": [
+            {
+              "id": "e11e825a-2a8c-4594-bbd0-7bd57e89a666",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "20258078-c7e1-4359-ace1-bf11a3549a57",
+          "frames": [
+            {
+              "id": "2c819003-640e-4650-b309-48e56fb97ec0",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kawakami.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "bc0c13fc85949d6b08c48e7e2f57548a0c4e73f1"
+}

@@ -1,0 +1,208 @@
+{
+  "_resourceType": "sprite",
+  "id": "edd87959-c9d6-4093-8302-a387c94c81a2",
+  "name": "name_oguricap",
+  "symbol": "sprite_name_oguricap",
+  "states": [
+    {
+      "id": "62668aea-0651-4f92-a2fe-fd720ee19ad9",
+      "name": "",
+      "animationType": "multi",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "8c6aa192-7512-433a-98d2-d417faca2018",
+          "frames": [
+            {
+              "id": "4e945a03-091e-4643-98af-346f8c59c956",
+              "tiles": [
+                {
+                  "id": "970f5f67-78bc-4532-b0d6-2288cf50a5ef",
+                  "x": -12,
+                  "y": 8,
+                  "sliceX": 0,
+                  "sliceY": -7,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "37b07e14-7922-46f6-96bc-826310784631",
+                  "x": -4,
+                  "y": 8,
+                  "sliceX": 8,
+                  "sliceY": -7,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "e97a948a-7c02-4a9f-b8d2-5ff1fcc694b0",
+                  "x": 4,
+                  "y": 8,
+                  "sliceX": 16,
+                  "sliceY": -7,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "7e703832-3402-45a1-8c51-57719da34ba1",
+                  "x": 12,
+                  "y": 8,
+                  "sliceX": 24,
+                  "sliceY": -7,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "6114a22f-063b-4eac-8664-a4f8c6f31730",
+                  "x": 20,
+                  "y": 8,
+                  "sliceX": 32,
+                  "sliceY": -7,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "eadf33a5-27de-4802-964b-cc4ad79ff308",
+          "frames": [
+            {
+              "id": "c68948fa-e0db-447c-9e0f-d290d1e1355e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1cb563ae-d3af-4a68-a452-95aa7f448691",
+          "frames": [
+            {
+              "id": "0b15de81-4691-4857-94d3-ae46756a7bbf",
+              "tiles": [
+                {
+                  "id": "7dfcc2c2-898c-4f42-8fd8-cd80a8670c7b",
+                  "x": -4,
+                  "y": 8,
+                  "sliceX": 48,
+                  "sliceY": -7,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "8d3ce701-2ffd-4050-8f02-3543597aa5f7",
+                  "x": 4,
+                  "y": 8,
+                  "sliceX": 56,
+                  "sliceY": -7,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "55740623-e494-4fb8-a2ad-f58ece361a6d",
+                  "x": 12,
+                  "y": 8,
+                  "sliceX": 64,
+                  "sliceY": -7,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "02a85603-0667-4a63-a582-a20cd5ba7bf4",
+          "frames": [
+            {
+              "id": "db43e438-fa37-4e3e-aeff-7b982fa4c79d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0e4dea2e-eabb-4ba3-902a-9ed6156ada93",
+          "frames": [
+            {
+              "id": "f6cf6772-aaa5-43ab-bf91-144378a14876",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "81dc367c-a1eb-4e39-9b9f-4eac5005c218",
+          "frames": [
+            {
+              "id": "56e11d5b-c9cf-4809-aa1d-8e7d69cfd667",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "64221652-2469-443e-ac79-4f82775fb127",
+          "frames": [
+            {
+              "id": "52f65683-c029-4743-9680-13ae845e500d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2c5a4339-e86a-48cd-965e-cbdfd4420cc8",
+          "frames": [
+            {
+              "id": "717b0850-df4d-4d43-a887-57fb46bad64c",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 4,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 40,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "name_oguricap.png",
+  "width": 74,
+  "height": 9,
+  "checksum": "231e79f06ecde313b4869fe1469aac8c21337ad6"
+}

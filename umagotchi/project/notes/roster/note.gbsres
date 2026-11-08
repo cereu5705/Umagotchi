@@ -1,0 +1,10 @@
+{
+  "_resourceType": "note",
+  "id": "83db61a2-d698-421d-9191-bfd960778a6b",
+  "name": "roster",
+  "x": 1008,
+  "y": 48,
+  "width": 20,
+  "height": 15,
+  "content": "- i think i'll have to use scripts to handle all the characters and so that the sprites show the character trainee and such\n- as for races, i've been thinking and thinking, but i don't think it's feasible for me and my skill level to make a proper simulation\n- so my current idea is that if you hit enough goalposts wrt stats, you get a bonus and then it tallies up points in the end? something like that"
+}

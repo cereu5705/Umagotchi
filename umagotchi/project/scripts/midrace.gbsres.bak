@@ -1,0 +1,125 @@
+{
+  "_resourceType": "script",
+  "id": "af61b069-e6e4-4763-a607-aabd2d27b626",
+  "name": "midrace",
+  "description": "a/d= pwr\nb/e = wit\nc/f = guts\ng = midrace score",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "trainee score",
+      "passByReference": true
+    },
+    "V1": {
+      "id": "V1",
+      "name": "rival score",
+      "passByReference": true
+    },
+    "V2": {
+      "id": "V2",
+      "name": "outcome",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "script_6",
+  "script": [
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "V0",
+        "expression": "$02$/100 + rnd($03$/100)/2 + rnd($04$/100)/3"
+      },
+      "id": "a352e246-3a75-46ca-ac2c-0ee6a3b5c124"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "V1",
+        "expression": "$20$/100 + rnd($22$/100)/2 + rnd($23$/100)/3"
+      },
+      "id": "06726d24-8f24-4394-83ca-faa71c4e7111"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "27"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "31"
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "V2",
+              "value": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "id": "c508b033-3066-4c89-9a07-ae5c495c3344"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "27"
+                },
+                "valueB": {
+                  "type": "variable",
+                  "value": "31"
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "V2",
+                    "value": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "06d21488-8dcc-4181-b39a-837df81db27b"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "V2",
+                    "value": {
+                      "type": "number",
+                      "value": 0
+                    }
+                  },
+                  "id": "5fa0d015-ef43-4a44-bbc6-1e490952b355"
+                }
+              ]
+            },
+            "id": "40449d07-0480-4716-9ee6-d5f430351a30"
+          }
+        ]
+      },
+      "id": "7c95bce7-70ae-49bc-a0cf-71f8c73cd496"
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "_resourceType": "trigger",
+  "id": "75eb0266-518c-480a-ac6c-6901befaf634",
+  "name": "stam",
+  "prefabId": "",
+  "x": 4,
+  "y": 12,
+  "symbol": "trigger_7",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "dc37d9ce-b849-4d97-b52c-f25e53088959",
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "L3"
+        },
+        "$variable[V2]$": {
+          "type": "variable",
+          "value": "L4"
+        },
+        "$variable[V3]$": {
+          "type": "variable",
+          "value": "L5"
+        },
+        "__collapse": true,
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "1"
+        }
+      },
+      "id": "5e1d8a4a-b839-4d05-8847-b2fa2fc4e5cd"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gte",
+          "valueA": {
+            "type": "variable",
+            "value": "7"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 20
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "7",
+              "value": {
+                "type": "sub",
+                "valueA": {
+                  "type": "variable",
+                  "value": "7"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 20
+                }
+              }
+            },
+            "id": "53348dc9-9654-4721-babb-8df6273f1b3a"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "7",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "78b52d51-c2ce-4549-aa83-9b0aa6c9a300"
+          }
+        ]
+      },
+      "id": "a8ed08de-3d48-4ff4-b013-8d137d442a31"
+    },
+    {
+      "id": "148bbe0e-ddb2-4298-b538-d0c729229f1f",
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "training math",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "value": {
+                "type": "rnd",
+                "value": {
+                  "type": "number",
+                  "value": 4
+                }
+              },
+              "__collapse": false
+            },
+            "id": "f8ebee59-2050-4789-b064-868376565c06"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "L1",
+              "expression": "28+($08$+1)*(1+$L0$)",
+              "__collapse": false
+            },
+            "id": "cd328142-4eb7-4b37-984e-2590768005e1"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "L2",
+              "expression": "16+($08$+1)*(1+$L0$)",
+              "__collapse": false
+            },
+            "id": "2bcea841-129a-4f4c-8a1c-14a1b0564b83"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "6"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "L1",
+                    "value": {
+                      "type": "mul",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "L1"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 2
+                      }
+                    },
+                    "__collapse": false
+                  },
+                  "id": "3d592a1d-2003-4fa7-97a3-69bacfe93d89"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "L2",
+                    "value": {
+                      "type": "mul",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "L2"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 2
+                      }
+                    },
+                    "__collapse": false
+                  },
+                  "id": "d5f74537-ea63-443c-863f-e04a43ff6631"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "6",
+                    "value": {
+                      "type": "number",
+                      "value": 0
+                    }
+                  },
+                  "id": "5f7e9305-aa32-4187-b9ee-9c05641209b3"
+                }
+              ],
+              "false": []
+            },
+            "id": "7d58c93f-ab98-4fff-bd80-e994680ca1dc"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "1",
+              "value": {
+                "type": "add",
+                "valueA": {
+                  "type": "variable",
+                  "value": "1"
+                },
+                "valueB": {
+                  "type": "variable",
+                  "value": "L1"
+                }
+              },
+              "__collapse": false
+            },
+            "id": "f6b44ac5-2dd6-46ae-ad9d-246fa155fd20"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "3",
+              "value": {
+                "type": "add",
+                "valueA": {
+                  "type": "variable",
+                  "value": "3"
+                },
+                "valueB": {
+                  "type": "variable",
+                  "value": "L2"
+                }
+              },
+              "__collapse": false
+            },
+            "id": "f5997d1a-d87d-4805-982f-4555b92a3043"
+          },
+          {
+            "command": "BR_EVENT_ADVANCED_DIALOGUE_vB",
+            "args": {
+              "text": [
+                "Your trainee\ngained $L1$ stamina\nand $L2$ guts!"
+              ],
+              "__scriptTabs": "text",
+              "boxHeight": 5,
+              "boxWidth": 20,
+              "boxX": 0,
+              "boxY": 13,
+              "showBorder": "true",
+              "showActors": "true",
+              "clearPrevious": "true",
+              "textInv": "false",
+              "textX": 1,
+              "textY": 14,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "avatarId": "",
+              "__collapse": false
+            },
+            "id": "d8acf7c9-0443-488e-a765-b99cc7c29352"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5eab7362-6cd5-4b94-bc6c-48c8f2d547a2",
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "end of turn",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "3a4be46b-3100-4f74-b9ea-c1002c243956",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": false
+            },
+            "id": "50d6fce7-3738-4627-8f96-75004bf734a0"
+          }
+        ]
+      }
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

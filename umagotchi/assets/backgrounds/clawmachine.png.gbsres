@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "d0663d56-861b-43e5-97f5-89b9ae7f13ba",
+  "name": "clawmachine",
+  "symbol": "bg_clawmachine",
+  "tileColors": "",
+  "filename": "clawmachine.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

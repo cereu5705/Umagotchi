@@ -1,0 +1,72 @@
+{
+  "_resourceType": "scene",
+  "id": "1fe6f2fc-5386-4756-9338-bcb3e5b4a9d9",
+  "_index": 5,
+  "name": "Archive",
+  "backgroundId": "eb00128c-a96c-496e-99a1-fb8bd1445215",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_8",
+  "x": 672,
+  "y": 200,
+  "script": [
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "gallery? event log, etc? keeps track of unlocked umas maybe"
+      },
+      "id": "7be70e24-678d-4e6c-b209-3c638383c30f"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "2e0a06ac-c4a0-448a-9c22-ea31ab2f03da"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "0017a014-2733-4c78-bacc-a34d822c1453",
+              "x": {
+                "type": "number",
+                "value": 17
+              },
+              "y": {
+                "type": "number",
+                "value": 12
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "cf1314c5-88cb-4861-87d0-77e42a152413"
+          }
+        ]
+      },
+      "id": "d1a2a311-0ca1-4285-a9b8-610e31b49837"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": false,
+  "labelColor": "gray"
+}

@@ -1,0 +1,806 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "uma1_spd",
+      "symbol": "var_uma1_spd"
+    },
+    {
+      "id": "1",
+      "name": "uma1_stm",
+      "symbol": "var_uma1_stm"
+    },
+    {
+      "id": "2",
+      "name": "uma1_pwr",
+      "symbol": "var_uma1_pwr_0"
+    },
+    {
+      "id": "3",
+      "name": "uma1_guts",
+      "symbol": "var_uma1_guts"
+    },
+    {
+      "id": "4",
+      "name": "uma1_wit",
+      "symbol": "var_uma1_wit"
+    },
+    {
+      "id": "5",
+      "name": "turncount",
+      "symbol": "var_turncount"
+    },
+    {
+      "id": "6",
+      "name": "luck_active",
+      "symbol": "var_luck_active"
+    },
+    {
+      "id": "7",
+      "name": "uma1_energy",
+      "symbol": "var_uma1_energy"
+    },
+    {
+      "id": "8",
+      "name": "uma1_mood",
+      "symbol": "var_uma1_mood"
+    },
+    {
+      "id": "9",
+      "name": "greatluck_active",
+      "symbol": "var_greatluck_active"
+    },
+    {
+      "id": "10",
+      "name": "token_got",
+      "symbol": "var_token_got"
+    },
+    {
+      "id": "11",
+      "name": "card_picked",
+      "symbol": "var_card_picked"
+    },
+    {
+      "id": "12",
+      "name": "karaoke_spd",
+      "symbol": "var_karaoke_spd"
+    },
+    {
+      "id": "13",
+      "name": "karaoke_stm",
+      "symbol": "var_karaoke_stm"
+    },
+    {
+      "id": "14",
+      "name": "karaoke_pwr",
+      "symbol": "var_karaoke_pwr"
+    },
+    {
+      "id": "15",
+      "name": "karaoke_guts",
+      "symbol": "var_karaoke_guts"
+    },
+    {
+      "id": "16",
+      "name": "karaoke_wit",
+      "symbol": "var_karaoke_wit"
+    },
+    {
+      "id": "17",
+      "name": "karaoke_energy",
+      "symbol": "var_karaoke_energy"
+    },
+    {
+      "id": "18",
+      "name": "uma1_name",
+      "symbol": "var_uma1_name"
+    },
+    {
+      "id": "19",
+      "name": "rival1_spd",
+      "symbol": "var_rival1_spd"
+    },
+    {
+      "id": "20",
+      "name": "rival1_pwr",
+      "symbol": "var_rival1_pwr"
+    },
+    {
+      "id": "21",
+      "name": "rival1_stm",
+      "symbol": "var_rival1_stm"
+    },
+    {
+      "id": "22",
+      "name": "rival1_guts",
+      "symbol": "var_rival1_guts"
+    },
+    {
+      "id": "23",
+      "name": "rival1_wit",
+      "symbol": "var_rival1_wit"
+    },
+    {
+      "id": "24",
+      "name": "uma1_style",
+      "symbol": "var_uma1_style"
+    },
+    {
+      "id": "25",
+      "name": "goal_count",
+      "symbol": "var_goal_count"
+    },
+    {
+      "id": "26",
+      "name": "uma1_early",
+      "symbol": "var_uma1_early"
+    },
+    {
+      "id": "27",
+      "name": "uma1_mid",
+      "symbol": "var_uma1_mid"
+    },
+    {
+      "id": "28",
+      "name": "uma1_late",
+      "symbol": "var_uma1_late"
+    },
+    {
+      "id": "29",
+      "name": "uma1_spurt",
+      "symbol": "var_uma1_spurt"
+    },
+    {
+      "id": "30",
+      "name": "rival_early",
+      "symbol": "var_rival_early"
+    },
+    {
+      "id": "31",
+      "name": "rival_mid",
+      "symbol": "var_rival_mid"
+    },
+    {
+      "id": "32",
+      "name": "rival_late",
+      "symbol": "var_rival_late"
+    },
+    {
+      "id": "33",
+      "name": "rival_spurt",
+      "symbol": "var_rival_spurt"
+    },
+    {
+      "id": "34",
+      "name": "ngplus",
+      "symbol": "var_ngplus"
+    },
+    {
+      "id": "35",
+      "name": "carrots",
+      "symbol": "var_carrots"
+    },
+    {
+      "id": "36",
+      "name": "victory_sirius",
+      "symbol": "var_victory_sirius"
+    },
+    {
+      "id": "37",
+      "name": "victory_rudolf",
+      "symbol": "var_victory_rudolf"
+    },
+    {
+      "id": "38",
+      "name": "shop_sirius",
+      "symbol": "var_shop_sirius_0"
+    },
+    {
+      "id": "39",
+      "name": "shop_rudolf",
+      "symbol": "var_shop_rudolf"
+    },
+    {
+      "id": "40",
+      "name": "shop_ramonu",
+      "symbol": "var_shop_ramonu"
+    },
+    {
+      "id": "41",
+      "name": "shop_ace",
+      "symbol": "var_shop_ace"
+    },
+    {
+      "id": "42",
+      "name": "shop_cb",
+      "symbol": "var_shop_cb"
+    },
+    {
+      "id": "43",
+      "name": "shop_maruzen",
+      "symbol": "var_shop_maruzen"
+    },
+    {
+      "id": "44",
+      "name": "shop_pokke",
+      "symbol": "var_shop_pokke"
+    },
+    {
+      "id": "45",
+      "name": "shop_tachyon",
+      "symbol": "var_shop_tachyon"
+    },
+    {
+      "id": "46",
+      "name": "shop_oguri",
+      "symbol": "var_shop_oguri"
+    },
+    {
+      "id": "47",
+      "name": "shop_bakushin",
+      "symbol": "var_shop_bakushin"
+    },
+    {
+      "id": "48",
+      "name": "shop_urara",
+      "symbol": "var_shop_urara"
+    },
+    {
+      "id": "49",
+      "name": "doro_min",
+      "symbol": "var_doro_min"
+    },
+    {
+      "id": "50",
+      "name": "doro",
+      "symbol": "var_doro"
+    },
+    {
+      "id": "51",
+      "name": "umadoro_a",
+      "symbol": "var_umadoro_a"
+    },
+    {
+      "id": "52",
+      "name": "umadoro_b",
+      "symbol": "var_umadoro_b"
+    },
+    {
+      "id": "53",
+      "name": "select_trainee_unlock",
+      "symbol": "var_select_trainee_unlock"
+    },
+    {
+      "id": "503",
+      "name": "victory_urara",
+      "symbol": "var_victory_urara"
+    },
+    {
+      "id": "504",
+      "name": "victory_bakushin",
+      "symbol": "var_victory_bakushin"
+    },
+    {
+      "id": "505",
+      "name": "victory_oguri",
+      "symbol": "var_victory_oguri"
+    },
+    {
+      "id": "506",
+      "name": "victory_tachyon",
+      "symbol": "var_victory_tachyon"
+    },
+    {
+      "id": "507",
+      "name": "victory_pokke",
+      "symbol": "var_victory_pokke"
+    },
+    {
+      "id": "508",
+      "name": "victory_maruzen",
+      "symbol": "var_victory_maruzen"
+    },
+    {
+      "id": "509",
+      "name": "victory_cb",
+      "symbol": "var_victory_cb"
+    },
+    {
+      "id": "510",
+      "name": "victory_ace",
+      "symbol": "var_victory_ace"
+    },
+    {
+      "id": "511",
+      "name": "victory_ramonu",
+      "symbol": "var_victory_ramonu"
+    },
+    {
+      "id": "5127d9c5-0a61-4e83-9905-a7a099b5e70f__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "eeda71f8-ccf3-4abf-b70d-7050158a7348__L0",
+      "name": "mov_check",
+      "symbol": "var_mov_check"
+    },
+    {
+      "id": "7bceae40-ca8b-414d-9f41-d5a16789067a__L0",
+      "name": "sleep_gain",
+      "symbol": "var_sleep_gain_0"
+    },
+    {
+      "id": "527463a9-f50c-48d1-8e29-27bce4187dd4__L1",
+      "name": "uma1_x",
+      "symbol": "var_uma1_x"
+    },
+    {
+      "id": "527463a9-f50c-48d1-8e29-27bce4187dd4__L0",
+      "name": "mov_check",
+      "symbol": "var_mov_check_0"
+    },
+    {
+      "id": "527463a9-f50c-48d1-8e29-27bce4187dd4__L2",
+      "name": "uma1_y",
+      "symbol": "var_uma1_y"
+    },
+    {
+      "id": "527463a9-f50c-48d1-8e29-27bce4187dd4__L3",
+      "name": "uma1stats_popped",
+      "symbol": "var_uma1stats_popped"
+    },
+    {
+      "id": "527463a9-f50c-48d1-8e29-27bce4187dd4__L4",
+      "name": "eating",
+      "symbol": "var_eating"
+    },
+    {
+      "id": "01b09d1e-3ba1-474f-a208-fb64d354a3e7__L0",
+      "name": "addspd",
+      "symbol": "var_addspd"
+    },
+    {
+      "id": "7bceae40-ca8b-414d-9f41-d5a16789067a__L1",
+      "name": "sleep_quality",
+      "symbol": "var_sleep_quality"
+    },
+    {
+      "id": "bcf6a657-be2a-4b2e-8269-7f410a33464e__L0",
+      "name": "rndbonus",
+      "symbol": "var_rndbonus_1"
+    },
+    {
+      "id": "75eb0266-518c-480a-ac6c-6901befaf634__L0",
+      "name": "rndbonus",
+      "symbol": "var_rndbonus_0"
+    },
+    {
+      "id": "a4b35f1f-b744-42b8-ac2d-7321c3dbf7ba__L0",
+      "name": "rndbonus",
+      "symbol": "var_rndbonus_2"
+    },
+    {
+      "id": "882cd49e-4a83-44cd-aac3-26c47bf70658__L0",
+      "name": "rndbonus",
+      "symbol": "var_rndbonus_3"
+    },
+    {
+      "id": "9f6a0cbd-6717-417e-a1e9-62e95b2a7724__L0",
+      "name": "newbie1",
+      "symbol": "var_newbie1"
+    },
+    {
+      "id": "25d1df76-411e-4347-a7ec-60428635589f__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
+    },
+    {
+      "id": "240618b5-364a-4fd2-ae0a-c84c2e6042ec__L0",
+      "name": "select_ask",
+      "symbol": "var_select_ask"
+    },
+    {
+      "id": "7bc7b689-5b4e-4433-96ce-2d1ed5d34d71__L0",
+      "name": "confirm",
+      "symbol": "var_confirm"
+    },
+    {
+      "id": "a35de62c-2e3d-4f26-9993-e8ad47f2dd66__L0",
+      "name": "mov_check",
+      "symbol": "var_mov_check_1"
+    },
+    {
+      "id": "a35de62c-2e3d-4f26-9993-e8ad47f2dd66__L1",
+      "name": "uma1_x",
+      "symbol": "var_uma1_x_0"
+    },
+    {
+      "id": "a35de62c-2e3d-4f26-9993-e8ad47f2dd66__L2",
+      "name": "uma1_y",
+      "symbol": "var_uma1_y_0"
+    },
+    {
+      "id": "a35de62c-2e3d-4f26-9993-e8ad47f2dd66__L3",
+      "name": "uma1stats_popped",
+      "symbol": "var_uma1stats_popped_0"
+    },
+    {
+      "id": "a35de62c-2e3d-4f26-9993-e8ad47f2dd66__L4",
+      "name": "eating",
+      "symbol": "var_eating_0"
+    },
+    {
+      "id": "01b09d1e-3ba1-474f-a208-fb64d354a3e7__L1",
+      "name": "rndbonus",
+      "symbol": "var_rndbonus"
+    },
+    {
+      "id": "01b09d1e-3ba1-474f-a208-fb64d354a3e7__L2",
+      "name": "addpwr",
+      "symbol": "var_addpwr_0"
+    },
+    {
+      "id": "01b09d1e-3ba1-474f-a208-fb64d354a3e7__L3",
+      "name": "failrate",
+      "symbol": "var_failrate"
+    },
+    {
+      "id": "01b09d1e-3ba1-474f-a208-fb64d354a3e7__L4",
+      "name": "failcheck",
+      "symbol": "var_failcheck"
+    },
+    {
+      "id": "4993de8d-2e4b-4c15-b779-6cd140a69ce6__L0",
+      "name": "reccheck",
+      "symbol": "var_reccheck"
+    },
+    {
+      "id": "3a4be46b-3100-4f74-b9ea-c1002c243956__L0",
+      "name": "endturncheck",
+      "symbol": "var_endturncheck"
+    },
+    {
+      "id": "9b099386-9256-40b8-93be-6fe20b0352d3__L0",
+      "name": "clawed",
+      "symbol": "var_clawed"
+    },
+    {
+      "id": "147d209f-8f74-4f87-8863-b59a59063fb2__L0",
+      "name": "token_movechance",
+      "symbol": "var_token_movechance"
+    },
+    {
+      "id": "147d209f-8f74-4f87-8863-b59a59063fb2__L1",
+      "name": "token_statpoints",
+      "symbol": "var_token_statpoints"
+    },
+    {
+      "id": "147d209f-8f74-4f87-8863-b59a59063fb2__L2",
+      "name": "bonus_energy",
+      "symbol": "var_bonus_energy"
+    },
+    {
+      "id": "147d209f-8f74-4f87-8863-b59a59063fb2__L3",
+      "name": "token_buffchance",
+      "symbol": "var_token_buffchance"
+    },
+    {
+      "id": "147d209f-8f74-4f87-8863-b59a59063fb2__L4",
+      "name": "token_whichstat",
+      "symbol": "var_token_whichstat"
+    },
+    {
+      "id": "858833a8-792d-4751-a77c-10e80122492b__L0",
+      "name": "fortune",
+      "symbol": "var_fortune"
+    },
+    {
+      "id": "75eb0266-518c-480a-ac6c-6901befaf634__L1",
+      "name": "addstm",
+      "symbol": "var_addstm"
+    },
+    {
+      "id": "75eb0266-518c-480a-ac6c-6901befaf634__L2",
+      "name": "addguts",
+      "symbol": "var_addguts_0"
+    },
+    {
+      "id": "bcf6a657-be2a-4b2e-8269-7f410a33464e__L2",
+      "name": "addstm",
+      "symbol": "var_addstm_0"
+    },
+    {
+      "id": "bcf6a657-be2a-4b2e-8269-7f410a33464e__L1",
+      "name": "addpwr",
+      "symbol": "var_addpwr"
+    },
+    {
+      "id": "a4b35f1f-b744-42b8-ac2d-7321c3dbf7ba__L1",
+      "name": "addguts",
+      "symbol": "var_addguts"
+    },
+    {
+      "id": "a4b35f1f-b744-42b8-ac2d-7321c3dbf7ba__L2",
+      "name": "addspd",
+      "symbol": "var_addspd_0"
+    },
+    {
+      "id": "a4b35f1f-b744-42b8-ac2d-7321c3dbf7ba__L3",
+      "name": "addpwr",
+      "symbol": "var_addpwr_1"
+    },
+    {
+      "id": "882cd49e-4a83-44cd-aac3-26c47bf70658__L1",
+      "name": "addwit",
+      "symbol": "var_addwit"
+    },
+    {
+      "id": "882cd49e-4a83-44cd-aac3-26c47bf70658__L2",
+      "name": "addspd",
+      "symbol": "var_addspd_1"
+    },
+    {
+      "id": "2045d14a-c88d-4e68-acd2-67f83133fb00__L0",
+      "name": "mov_check",
+      "symbol": "var_mov_check_2"
+    },
+    {
+      "id": "2045d14a-c88d-4e68-acd2-67f83133fb00__L1",
+      "name": "uma1_x",
+      "symbol": "var_uma1_x_1"
+    },
+    {
+      "id": "2045d14a-c88d-4e68-acd2-67f83133fb00__L2",
+      "name": "uma1_y",
+      "symbol": "var_uma1_y_1"
+    },
+    {
+      "id": "2045d14a-c88d-4e68-acd2-67f83133fb00__L3",
+      "name": "uma1stats_popped",
+      "symbol": "var_uma1stats_popped_1"
+    },
+    {
+      "id": "2045d14a-c88d-4e68-acd2-67f83133fb00__L4",
+      "name": "eating",
+      "symbol": "var_eating_1"
+    },
+    {
+      "id": "eae729cb-1ab9-4df7-9854-c6f8fd3755c1__L0",
+      "name": "rnd_friends",
+      "symbol": "var_rnd_friends"
+    },
+    {
+      "id": "c8157e71-ecd7-4741-ace1-b1eceedd31ff__L0",
+      "name": "fortune_chance",
+      "symbol": "var_fortune_chance"
+    },
+    {
+      "id": "01b09d1e-3ba1-474f-a208-fb64d354a3e7__L5",
+      "name": "mooddropcheck",
+      "symbol": "var_mooddropcheck"
+    },
+    {
+      "id": "882cd49e-4a83-44cd-aac3-26c47bf70658__L3",
+      "name": "failrate",
+      "symbol": "var_failrate_0"
+    },
+    {
+      "id": "882cd49e-4a83-44cd-aac3-26c47bf70658__L4",
+      "name": "failcheck",
+      "symbol": "var_failcheck_0"
+    },
+    {
+      "id": "882cd49e-4a83-44cd-aac3-26c47bf70658__L5",
+      "name": "mooddropcheck",
+      "symbol": "var_mooddropcheck_0"
+    },
+    {
+      "id": "09ee8791-2507-412b-b04e-d36262243380__L0",
+      "name": "trainee_score",
+      "symbol": "var_trainee_score"
+    },
+    {
+      "id": "09ee8791-2507-412b-b04e-d36262243380__L1",
+      "name": "rival_score",
+      "symbol": "var_rival_score"
+    },
+    {
+      "id": "09ee8791-2507-412b-b04e-d36262243380__L2",
+      "name": "outcome",
+      "symbol": "var_outcome"
+    },
+    {
+      "id": "09ee8791-2507-412b-b04e-d36262243380__L3",
+      "name": "overall",
+      "symbol": "var_overall"
+    },
+    {
+      "id": "5b1a2626-526a-439d-ae98-bb86a97536fb__L3",
+      "name": "overall",
+      "symbol": "var_overall_0"
+    },
+    {
+      "id": "5b1a2626-526a-439d-ae98-bb86a97536fb__L2",
+      "name": "outcome",
+      "symbol": "var_outcome_0"
+    },
+    {
+      "id": "5b1a2626-526a-439d-ae98-bb86a97536fb__L0",
+      "name": "trainee score",
+      "symbol": "var_trainee_score_0"
+    },
+    {
+      "id": "5b1a2626-526a-439d-ae98-bb86a97536fb__L1",
+      "name": "rival score",
+      "symbol": "var_rival_score_0"
+    },
+    {
+      "id": "c2aadc3e-71df-44be-a5b1-57c780c141b9__L0",
+      "name": "card_rng",
+      "symbol": "var_card_rng"
+    },
+    {
+      "id": "c2aadc3e-71df-44be-a5b1-57c780c141b9__L1",
+      "name": "card_bonus",
+      "symbol": "var_card_bonus"
+    },
+    {
+      "id": "93ef9c72-64c0-4678-8769-dc50f968965a__L0",
+      "name": "card_rng",
+      "symbol": "var_card_rng_0"
+    },
+    {
+      "id": "e45451df-0db5-461e-baa5-487647b1aab8__L0",
+      "name": "trainee_score",
+      "symbol": "var_trainee_score_1"
+    },
+    {
+      "id": "9b099386-9256-40b8-93be-6fe20b0352d3__L1",
+      "name": "rnd_prize",
+      "symbol": "var_rnd_prize"
+    },
+    {
+      "id": "9b099386-9256-40b8-93be-6fe20b0352d3__L2",
+      "name": "Local 2",
+      "symbol": "var_local_2"
+    },
+    {
+      "id": "e45451df-0db5-461e-baa5-487647b1aab8__L1",
+      "name": "races_remaining",
+      "symbol": "var_races_remaining"
+    },
+    {
+      "id": "e45451df-0db5-461e-baa5-487647b1aab8__L2",
+      "name": "race_confirm",
+      "symbol": "var_race_confirm"
+    },
+    {
+      "id": "43d64d81-151c-4793-ba20-ef4285fbcdeb__L0",
+      "name": "gift_trigger",
+      "symbol": "var_gift_trigger"
+    },
+    {
+      "id": "d476cd19-544b-467b-9e08-54d52d3ddee4__L0",
+      "name": "Local 0",
+      "symbol": "var_local_3"
+    },
+    {
+      "id": "1a66df60-32bd-4ecc-90b0-182a0c5f498f__L0",
+      "name": "Local 0",
+      "symbol": "var_local_5"
+    },
+    {
+      "id": "bcf39cec-cfe8-4583-aa71-008c77e814d4__L0",
+      "name": "menu",
+      "symbol": "var_menu"
+    },
+    {
+      "id": "fef3e93a-c2bd-4efb-b38b-a29b1417df51__L0",
+      "name": "tut_yesno",
+      "symbol": "var_tut_yesno"
+    },
+    {
+      "id": "771b9a56-7010-4993-8400-1e52194bda74__L0",
+      "name": "menu",
+      "symbol": "var_menu_0"
+    },
+    {
+      "id": "771b9a56-7010-4993-8400-1e52194bda74__L1",
+      "name": "return_home",
+      "symbol": "var_return_home"
+    },
+    {
+      "id": "e45451df-0db5-461e-baa5-487647b1aab8__L3",
+      "name": "race_type",
+      "symbol": "var_race_type"
+    },
+    {
+      "id": "e45451df-0db5-461e-baa5-487647b1aab8__L4",
+      "name": "rival_score",
+      "symbol": "var_rival_score_1"
+    },
+    {
+      "id": "c376fa79-c6c9-4764-9886-1f64321e174a__L0",
+      "name": "Local 0",
+      "symbol": "var_local_4"
+    },
+    {
+      "id": "1aed33a0-76c3-49cb-9f91-60e873bd6a3f__L0",
+      "name": "buy_confirm",
+      "symbol": "var_buy_confirm"
+    },
+    {
+      "id": "b85dd9af-4605-4e3c-8d97-54d13dde1122__L0",
+      "name": "unlockall_counter",
+      "symbol": "var_unlockall_counter_0"
+    },
+    {
+      "id": "5dd0754d-a0f2-4222-9692-1c844ecfc216__L0",
+      "name": "Local 0",
+      "symbol": "var_local_6"
+    },
+    {
+      "id": "5fa02d36-bf3c-4dcf-a56c-40a246994752__L0",
+      "name": "startscreen_confirm",
+      "symbol": "var_startscreen_confirm"
+    },
+    {
+      "id": "5fa02d36-bf3c-4dcf-a56c-40a246994752__L1",
+      "name": "firsttime",
+      "symbol": "var_firsttime"
+    },
+    {
+      "id": "5fa02d36-bf3c-4dcf-a56c-40a246994752__L2",
+      "name": "reset_timer",
+      "symbol": "var_reset_timer"
+    },
+    {
+      "id": "5fa02d36-bf3c-4dcf-a56c-40a246994752__L3",
+      "name": "trainee_a",
+      "symbol": "var_trainee_a"
+    },
+    {
+      "id": "7988596b-b71f-44da-9149-6647e240b40b__L3",
+      "name": "trainee_a",
+      "symbol": "var_trainee_a_0"
+    },
+    {
+      "id": "7988596b-b71f-44da-9149-6647e240b40b__L0",
+      "name": "trainee_a2",
+      "symbol": "var_trainee_a2"
+    },
+    {
+      "id": "7988596b-b71f-44da-9149-6647e240b40b__L2",
+      "name": "trainee_b",
+      "symbol": "var_trainee_b"
+    },
+    {
+      "id": "7988596b-b71f-44da-9149-6647e240b40b__L1",
+      "name": "trainee_b2",
+      "symbol": "var_trainee_b2"
+    },
+    {
+      "id": "ebedb345-e07c-4531-bb8c-e45d2bb2a2ad__L1",
+      "name": "emotes",
+      "symbol": "var_emotes"
+    },
+    {
+      "id": "d4524238-4260-4249-b898-efa9af276907__L0",
+      "name": "unlocked",
+      "symbol": "var_unlocked_0"
+    },
+    {
+      "id": "240618b5-364a-4fd2-ae0a-c84c2e6042ec__L1",
+      "name": "trainee_unlock",
+      "symbol": "var_trainee_unlock"
+    },
+    {
+      "id": "4cb33fac-6433-4bc4-9eab-a08a85ae9a6c__L0",
+      "name": "confirm",
+      "symbol": "var_confirm_0"
+    }
+  ],
+  "constants": []
+}

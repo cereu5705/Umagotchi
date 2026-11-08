@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "2be2a424-2b9f-4b10-a20e-9c0a26d0fb4a",
+  "name": "gentildonna",
+  "symbol": "sprite_gentildonna",
+  "states": [
+    {
+      "id": "75e5b7c0-a50a-42ed-85e1-df44ebd932d0",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "d0fee81c-8252-4b57-ac45-ee2a012b2645",
+          "frames": [
+            {
+              "id": "03d70c77-f43a-4d1f-ac1c-18e409605d16",
+              "tiles": [
+                {
+                  "id": "91758022-a09e-42c9-a9f6-72cf5e7e3250",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "93a1e174-a1a0-4270-b3d8-5e05062448af",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d882c9fc-e21c-4d3e-9e9b-e4eb33896b8f",
+          "frames": [
+            {
+              "id": "13e34ef3-b922-450c-be90-cd34f8fa1c80",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b1e9f5d6-a36f-4baf-96a1-e5c8a29cd148",
+          "frames": [
+            {
+              "id": "ab4fccef-f098-4966-ab0a-b181deec9e89",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "89e5435c-c79c-4779-8bd1-d5b526b9da41",
+          "frames": [
+            {
+              "id": "618e2f6a-9465-4e9e-b548-ce67daeb34b9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "86243474-3cf6-42fb-9c6a-66a55dc4fd4f",
+          "frames": [
+            {
+              "id": "ead3bee5-de1a-4941-b45f-beca03ab7847",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e994d833-6a7a-4ab0-884b-f260448e52e6",
+          "frames": [
+            {
+              "id": "b717c79a-88bf-4c9f-b9af-bd9242f23bba",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "aba24cc2-adc3-49e6-bdc3-d69808f2bfce",
+          "frames": [
+            {
+              "id": "71410fb6-483d-4383-87fc-0b3bcf6e42d3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "400e5f30-b1a4-4275-aaf6-529034d99584",
+          "frames": [
+            {
+              "id": "0e996d3e-5c84-4f02-878a-5ff93ad078f4",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "gentildonna.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "14dc50ba3aca617573f62688923e9fe2442ed273"
+}

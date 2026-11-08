@@ -1,0 +1,23 @@
+{
+  "_resourceType": "trigger",
+  "id": "6ceef5da-d463-490a-b9fb-1e1b14a0b189",
+  "name": "",
+  "prefabId": "",
+  "x": 12,
+  "y": 12,
+  "symbol": "trigger_14",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "change to RACE"
+      },
+      "id": "d0f96f28-adff-4a96-9138-7890e245bdeb"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "32afa372-cba2-4e6f-b0ae-580b762bbe34",
+  "_index": 30,
+  "name": "event_wit2",
+  "backgroundId": "63024c67-fcfa-4b83-9f58-39118238fc07",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_31",
+  "x": 1024,
+  "y": 1536,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

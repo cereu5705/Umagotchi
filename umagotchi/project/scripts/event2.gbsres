@@ -1,0 +1,177 @@
+{
+  "_resourceType": "script",
+  "id": "28355634-9a9d-4141-ba71-5e782f6bd9c3",
+  "name": "event2",
+  "description": "stm\n- oguri..? like hauling food..?\n- digitan: scrapbook pages fell out and get picked up by the wind, so your trainee helps her get them back\n- stuco passing out flyers",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "digitan"
+    },
+    "1": {
+      "id": "1",
+      "name": "trainee"
+    }
+  },
+  "symbol": "script_11",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "0",
+        "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2"
+      },
+      "id": "b5f18a3a-a854-406c-9cd5-d1d414245601"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "It takes the whole\nday, but Digitan\nis overjoyed at",
+          "being reunited\nwith her precious\nphotos. She's so",
+          "happy that she\nfaints and has to\nbe carried back."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "d31a2c96-d3a9-4a92-8112-aad692061465"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "__section": "movement",
+        "actorId": "0",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 1
+        },
+        "collideWith": [
+          "walls"
+        ],
+        "lockDirection": [],
+        "moveType": "horizontal"
+      },
+      "id": "c1b9eecf-bf49-4c31-b21c-d5a13e7a937d"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "0",
+        "direction": {
+          "type": "direction",
+          "value": "left"
+        }
+      },
+      "id": "74b50afb-4bff-4650-bfe3-8ee39f848088"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "1",
+        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+      },
+      "id": "47f7c6b9-c90f-4043-9ae8-b6e84fb2e34f"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 1
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "f89224ed-11ee-4357-af3b-bb2f8bd1bf46"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "1",
+        "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202"
+      },
+      "id": "eac575db-a67c-4c2d-8093-fc113d80e5e9"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Your trainee got\n15 stamina!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "0446c620-823b-47f3-bf24-987a2920f51c"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "add",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 15
+          }
+        }
+      },
+      "id": "a101a1da-df37-4313-9ad1-b1da8f64860a"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "0017a014-2733-4c78-bacc-a34d822c1453",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "f4bd1fe1-0b8e-4764-878e-d402a85e6b62"
+    }
+  ]
+}

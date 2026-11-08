@@ -1,0 +1,146 @@
+{
+  "_resourceType": "scene",
+  "id": "a1f3f821-5788-440f-81e5-4ee125d7950b",
+  "_index": 23,
+  "name": "event_wit",
+  "backgroundId": "63024c67-fcfa-4b83-9f58-39118238fc07",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_26",
+  "x": 848,
+  "y": 1536,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "243051e7-abed-46ec-a403-7120f0a3eb05"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Gah! I spent the\nwhole weekend\nthinking about",
+          "only motorcycles\nand forgot to do\nmy homework!"
+        ],
+        "__section": "text",
+        "avatarId": "24914939-4fbf-4e5b-8d9e-9ab6379b96e5",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "351d50cb-3542-41c2-bf28-605eda6b3fb2"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "(Sigh)I told you\nso. Now, are you\ngoing to ask for",
+          "my hel--\nHey, where are\nyou going?!"
+        ],
+        "__section": "text",
+        "avatarId": "80887898-a367-4a3b-a274-affa4bec9f25",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "5752dec8-4809-4c7b-b783-b5687c9cc5c0"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Quit nagging! I\ncan finish this\nwithout you!"
+        ],
+        "__section": "text",
+        "avatarId": "24914939-4fbf-4e5b-8d9e-9ab6379b96e5",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "5ba50b8a-c624-423e-b32c-78f9ba5de716"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "__section": "movement",
+        "actorId": "21a2452f-463f-4276-8987-5fbf8a2333b3",
+        "x": {
+          "type": "number",
+          "value": 3
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "collideWith": [
+          "walls"
+        ],
+        "lockDirection": [],
+        "moveType": "horizontal"
+      },
+      "id": "e79d6b47-45a5-44ff-85e2-43119e39c8b5"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "32afa372-cba2-4e6f-b0ae-580b762bbe34",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "d61b263c-efd1-4cf5-af39-8adf4d7eeb91"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

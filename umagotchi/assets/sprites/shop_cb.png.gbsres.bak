@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "5941d954-229a-47cf-9227-02d4725b7348",
+  "name": "shop_cb",
+  "symbol": "sprite_shop_cb",
+  "states": [
+    {
+      "id": "e01a838f-f816-45cf-80e4-e11a41798b92",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "d66176dc-68d7-423c-b75e-499e0229bf81",
+          "frames": [
+            {
+              "id": "a4c64759-f7fc-409e-aa02-1c8e582e07fc",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8d61c771-ba52-4b4a-8aeb-35eb0fd6e806",
+          "frames": [
+            {
+              "id": "8c2747a6-4819-4bf6-843f-bf7c8751033b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "28267530-1110-4256-a67f-456e3b3d6ef3",
+          "frames": [
+            {
+              "id": "cb5c68bd-eea9-4617-84ec-4efddb98d720",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c7cb0b44-5818-453f-875c-6655e49a1d71",
+          "frames": [
+            {
+              "id": "54f2514d-6775-44fb-a3b0-4c9d399552d7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ee82b348-e79b-4217-8b5e-48eea40150ee",
+          "frames": [
+            {
+              "id": "9a82e69b-7773-4106-b5d4-a8f035ac4a36",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "28cdf441-a105-4e0b-81f3-5b3d6d82cc61",
+          "frames": [
+            {
+              "id": "9b972d9d-09b7-46a5-961f-9cb6b98b58c3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "77e82177-cda6-4257-bf6b-208f92eb1190",
+          "frames": [
+            {
+              "id": "4644d09f-5282-4ba3-8cef-dbb27c3f2f7e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a7bc1f53-0252-47bf-b239-9f637ed78565",
+          "frames": [
+            {
+              "id": "22dfd27f-d565-4424-94e8-c173e7727e33",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "shop_cb.png",
+  "width": 22,
+  "height": 22,
+  "checksum": "d2c995d1ebff19b6e8ea623918c5cba5e4908026"
+}

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "25b7f4e6-1f45-4f5c-aa00-2e91777d6676",
+  "name": "event_pwr",
+  "symbol": "bg_event_pwr",
+  "tileColors": "",
+  "filename": "event_pwr.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

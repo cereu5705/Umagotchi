@@ -1,0 +1,128 @@
+{
+  "_resourceType": "script",
+  "id": "e7f2887e-1d25-4f5e-9052-41f23ef226ab",
+  "name": "earlyrace",
+  "description": "a = trainee wit\nb = trainee pwr\nc = rival wit\nb = rival pwr\ne = early race outcome (0=bad, 1=evenly matched, 2=good)",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "trainee score",
+      "passByReference": true
+    },
+    "V1": {
+      "id": "V1",
+      "name": "rival score",
+      "passByReference": true
+    },
+    "V2": {
+      "id": "V2",
+      "name": "outcome",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "script_5",
+  "script": [
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "V0",
+        "expression": "$04$/100 + (rnd($02$/100)/2)",
+        "__collapse": true
+      },
+      "id": "af4344b1-72ed-430c-bd6a-576fc81b001b"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "V1",
+        "expression": "$23$/100 + (rnd($20$/100)/2)",
+        "__collapse": true
+      },
+      "id": "6815892a-fc0e-4d3c-84d6-e0dd0cef7d5c"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "V0"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "V1"
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "V2",
+              "value": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "id": "dcd6d6ad-a52d-4145-a2fc-b0a9243b0818"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "26"
+                },
+                "valueB": {
+                  "type": "variable",
+                  "value": "30"
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "V2",
+                    "value": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "e191e06d-2ce6-480f-b897-72d36bbc43bf"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "V2",
+                    "value": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "__collapse": false
+                  },
+                  "id": "2ec24f0e-eaf0-412c-ac16-cf2a844bd3b7"
+                }
+              ]
+            },
+            "id": "e102015b-029c-43a6-939b-2c34d1ee9393"
+          }
+        ]
+      },
+      "id": "2be09952-48c2-4443-9492-65a882955271"
+    }
+  ]
+}

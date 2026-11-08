@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "6c90b9d8-57b5-4990-a997-15549d475895",
+  "name": "shop_bakushin",
+  "symbol": "sprite_shop_bakushin",
+  "states": [
+    {
+      "id": "74ef08ac-b971-4313-8bc0-ada4c8c27be4",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "32b50687-03d1-4b8b-b34c-dc1233bd0944",
+          "frames": [
+            {
+              "id": "637acab1-f11d-4ab0-b16b-4d11537c5f8f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1532ff22-653b-47f0-9c37-f8fef2786e5c",
+          "frames": [
+            {
+              "id": "c0d75e64-e05d-4ac7-aa3e-d2237b6fba8f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d7166ac1-c80c-4584-bb57-02d525a2b9b8",
+          "frames": [
+            {
+              "id": "9c4439d3-61ba-4236-a84f-4adddb16dc31",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2875ef0b-038b-4b5b-a370-2dc5fba55742",
+          "frames": [
+            {
+              "id": "18f03723-89a0-40e6-b1dd-8296e88d135d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "776aca6a-80dd-4ad9-998c-e7874e71a320",
+          "frames": [
+            {
+              "id": "0cd79c51-319d-4d38-a8bb-02af203dd86e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a464bcdc-599c-4863-ae89-3e450fd9e827",
+          "frames": [
+            {
+              "id": "a77e2ac0-47ef-468c-9954-7c60a01034a0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9d8dacb5-dc4b-4a50-b166-e703267b5ca0",
+          "frames": [
+            {
+              "id": "ed272163-bf82-46ef-86da-a650d62b3879",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6ad7d627-1459-424e-99c6-ec2a826c0c63",
+          "frames": [
+            {
+              "id": "9c0eb374-b076-4c8f-85e5-2244ee4f66f5",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "shop_bakushin.png",
+  "width": 22,
+  "height": 22,
+  "checksum": "c8a3bd8d03d294b8e5110882ca98ba231bcc5eba"
+}

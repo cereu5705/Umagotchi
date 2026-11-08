@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "022c68e8-d7fd-48a0-9bbc-83bd801f50e9",
+  "name": "umadora",
+  "symbol": "bg_umadora",
+  "tileColors": "",
+  "filename": "umadora.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

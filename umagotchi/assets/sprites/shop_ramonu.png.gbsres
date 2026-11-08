@@ -1,0 +1,181 @@
+{
+  "_resourceType": "sprite",
+  "id": "1a5aa2b6-db74-4e36-99b7-3745ac6913a9",
+  "name": "shop_ramonu",
+  "symbol": "sprite_shop_ramonu",
+  "states": [
+    {
+      "id": "a863e253-28d5-4100-b626-02fad636f98f",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "35e27a16-0831-42af-8feb-635da149f5d6",
+          "frames": [
+            {
+              "id": "caf3586b-7131-411e-8ed0-be515c7eeb0b",
+              "tiles": [
+                {
+                  "id": "b15b30fe-1aa6-4a95-9a3d-f84e6022a14c",
+                  "x": -3,
+                  "y": 16,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "bdd8de8d-a328-41bb-8331-70dfa324c43b",
+                  "x": -3,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "192a9366-6dd2-45ce-a9c6-133095d014bb",
+                  "x": 5,
+                  "y": 16,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "aa3c11c2-d115-45f6-b6dc-a52dbb7923a5",
+                  "x": 5,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "7f901bb4-d735-4f13-8ee4-ec659c7dc7eb",
+                  "x": 13,
+                  "y": 16,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "3b6c343f-8bbe-41ae-bc5b-adad3c3f5d20",
+                  "x": 13,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8e5b72f0-994a-425c-95dd-4939275cb729",
+          "frames": [
+            {
+              "id": "dd228148-801e-4ddb-b3a6-fac9c6da188e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9b375f53-8243-4c61-a5a6-da195dd87b3b",
+          "frames": [
+            {
+              "id": "68716004-2a7a-4d7c-b53c-ad84f7445764",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "493c2d7a-bd0b-4106-8c6a-091cbf0e7d22",
+          "frames": [
+            {
+              "id": "56b3568f-4f65-498f-ad2d-7bd2c22434b8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0c9bb993-f348-4d65-b0b8-c87ec9f2bf15",
+          "frames": [
+            {
+              "id": "683b954c-4415-4990-bf7f-06e0ebedff74",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f637b298-35bc-4b93-b79b-114a485f5297",
+          "frames": [
+            {
+              "id": "39c250e7-c6fe-4350-b158-8bfc5052acf6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "cb5bff5b-5810-4002-926d-98bb63faa638",
+          "frames": [
+            {
+              "id": "ea13f0ae-46f5-43fc-9436-7f10d2ad242b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "964479a8-4f4b-4779-aaed-d2865e835216",
+          "frames": [
+            {
+              "id": "71b2f283-0a40-4e91-9224-b61824209b13",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 6,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "shop_ramonu.png",
+  "width": 22,
+  "height": 22,
+  "checksum": "2be9a1de0829d8a22646da8963602e226a63eac1"
+}

@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "741081b0-da8d-43db-bea7-cb3a5e0c647e",
+  "name": "music_note2",
+  "symbol": "sprite_music_note2",
+  "states": [
+    {
+      "id": "09565be0-db70-4080-8465-8203a08171a9",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "7a75f7df-c6bb-4f35-a485-88c357111066",
+          "frames": [
+            {
+              "id": "c0f63619-a99c-421e-8415-d89bea9e4c60",
+              "tiles": [
+                {
+                  "id": "8eb82c2a-7962-4f9f-9568-cf6dba3f460d",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "d670906e-d022-4da7-9e80-7c2df5242537",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6b0b6db9-9b50-4ac4-90f0-9d52f559cbb6",
+          "frames": [
+            {
+              "id": "2354e2b1-77e4-4aa0-aae6-9dce07419882",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "edfc895e-bc6c-4610-b2f1-f13bbf992991",
+          "frames": [
+            {
+              "id": "fbb7fde4-652e-4445-9564-08f09e783928",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "974ba3c4-1fc8-40f3-bad5-5711466e0ea5",
+          "frames": [
+            {
+              "id": "2528be37-a698-4899-962c-81f2b75971c0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5767505c-fdf7-45c9-8038-5b4aa043196c",
+          "frames": [
+            {
+              "id": "021f00d2-6418-495b-bed1-1a5c4036669f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "67b22368-f683-4aa3-8ee6-0390e20443d6",
+          "frames": [
+            {
+              "id": "5612083a-bb65-4321-875e-15ee8239d4b6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "13b6f8d9-2d11-4037-9834-01e13e9758af",
+          "frames": [
+            {
+              "id": "cbff42bc-fee3-4dce-9ba2-239c7c578e1e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "91bb90a0-63b8-4778-8299-a8f2f8cdcd79",
+          "frames": [
+            {
+              "id": "26b716d0-086e-4942-b374-e68df85fc92f",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "music_note2.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "e2a2e42077cb963fd161e2c49fc929a1eeb46d9f"
+}

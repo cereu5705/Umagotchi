@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "688e6293-d158-484b-b055-2073ba15d4f7",
+  "name": "race_mile",
+  "symbol": "bg_race_mile",
+  "tileColors": "",
+  "filename": "race_mile.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

@@ -1,0 +1,40 @@
+{
+  "_resourceType": "scene",
+  "id": "c2455701-cf2e-44b6-896c-36b157f340d2",
+  "_index": 2,
+  "name": "care",
+  "backgroundId": "196588cc-cf7b-49b6-9c3f-a58ddd009988",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f6+006+0f!007+0f!007+0f2+002+0f!007+0f!007+0f2+002+0f!007+0f!007+0f2+0012+0f2+004+0f6+0017+0f!0010+0f!002+0f!00b+0f!004+0f!002+0f!008+0f9+002+0f!00f+0f!003+0f!004c+0f50+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_0",
+  "x": 336,
+  "y": 88,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "d4fd2030-7b5c-48d1-b4f1-4a082a4fd638"
+    }
+  ],
+  "playerHit1Script": [
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "7d843dc2-1136-4709-8003-8611869e1556"
+    }
+  ],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}

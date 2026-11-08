@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "c3e7894a-b0a9-4d2e-acd4-7977453f1776",
+  "name": "oguri2x",
+  "symbol": "sprite_oguri2x",
+  "states": [
+    {
+      "id": "c433bef9-5c81-4162-8bf8-1fd5849c76c7",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "8dcff478-ed35-4617-bbf6-8fe1688cdf14",
+          "frames": [
+            {
+              "id": "468e183c-64d0-4fd4-85d8-d8e979dc06b4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0ffbef1a-7f27-4bca-b2c3-f3f48a9e475d",
+          "frames": [
+            {
+              "id": "9fc1a686-1e3a-451e-a4fb-a69715b5b243",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "edfa74fc-28d7-4dbc-8fe2-41c5e1ebde96",
+          "frames": [
+            {
+              "id": "f6205370-a0c4-4bc2-bf27-f159e20a7ac4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "68a258c3-e754-4477-a571-0f843effa278",
+          "frames": [
+            {
+              "id": "f916cb4b-8a5f-4707-b6df-659dfad065c2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "89b7c7a3-04b1-40c4-ac89-ec7db8b004cd",
+          "frames": [
+            {
+              "id": "8f088191-200f-4e99-975f-0d3b8316397a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2ea3a27f-1c45-4a11-934d-bbb49d048495",
+          "frames": [
+            {
+              "id": "ac0df691-2e16-4f91-986b-b8d636738e43",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7566fbc5-134e-478e-9320-8272e1379491",
+          "frames": [
+            {
+              "id": "99ff143f-806d-4fe7-b097-6e0b8552f2a5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b64eda56-11cd-4c93-8bff-e2e36fa954eb",
+          "frames": [
+            {
+              "id": "a7a4ee10-5f87-491e-bca5-efa3185582d5",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "oguri2x.png",
+  "width": 64,
+  "height": 64,
+  "checksum": "5545a6f5d61c3be5eca451ecb343fedbe8571f3d"
+}

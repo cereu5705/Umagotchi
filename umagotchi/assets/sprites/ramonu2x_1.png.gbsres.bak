@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "435ef152-ecdd-4733-82c0-ed1afaff1f8a",
+  "name": "ramonu2x_1",
+  "symbol": "sprite_ramonu2x_1",
+  "states": [
+    {
+      "id": "bf846416-8738-42a4-9d3f-97348071d9fb",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "00253530-5df4-4bf2-aea0-3c52a3d78c3e",
+          "frames": [
+            {
+              "id": "f10915dc-1d0a-4930-8647-a0f2489ca221",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "349f70c3-23cc-46f4-bff9-7acaf0383729",
+          "frames": [
+            {
+              "id": "d6fae8e9-c4b8-4973-bef8-69fd7c84801c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1cd7e5b8-aed5-4165-b81e-6f0b2257d780",
+          "frames": [
+            {
+              "id": "980c0346-3f87-425d-8d84-4a30d326d9ff",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "73c43070-2a70-442d-8338-926c8812b3b1",
+          "frames": [
+            {
+              "id": "66f5b3f6-0b75-4b4f-8f13-632ce387eae1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6b0b97b0-8827-4fc7-a173-8193029193d3",
+          "frames": [
+            {
+              "id": "5a7022fc-0e3e-4b65-86ec-d05871cc1b15",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "bf62708e-04e6-472f-9c55-00da4dd1bf7a",
+          "frames": [
+            {
+              "id": "83aad3a3-3589-4c07-b07b-e611c9ea82d4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "335adacc-8033-4bd5-b768-623844f825c6",
+          "frames": [
+            {
+              "id": "972c0ce3-a81b-4fb9-b5ac-01fd2ea08376",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "198b7584-cefd-4a0b-bb3c-c45a39c8644f",
+          "frames": [
+            {
+              "id": "03f225a1-2d16-4437-bf75-dba04176f28e",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "ramonu2x_1.png",
+  "width": 96,
+  "height": 64,
+  "checksum": "48c922d8ac3d53cb4a846c3ecc39e11751f484a6"
+}

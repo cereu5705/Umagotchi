@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "45d431c4-3ec5-4572-a106-4fa639fc9214",
+  "name": "race_med",
+  "symbol": "bg_race_med",
+  "tileColors": "",
+  "filename": "race_med.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

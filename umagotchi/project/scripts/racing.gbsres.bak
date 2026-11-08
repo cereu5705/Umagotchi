@@ -1,0 +1,61 @@
+{
+  "_resourceType": "script",
+  "id": "c00c977f-2df8-4249-bcc8-4db79d3f5f19",
+  "name": "racing",
+  "description": "bruh how do i calc this? maybe i should just make it way simpler. like instead of all these stats, it's based on training, luck, and ??\nspeed",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "symbol": "script_1",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "9"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 50
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "0",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "horizontal"
+            },
+            "id": "ef27cbed-64fc-403d-b4e4-f840c2cba4a2"
+          }
+        ],
+        "false": []
+      },
+      "id": "d1f51791-b224-4092-bdf1-0e758f97011a"
+    }
+  ]
+}

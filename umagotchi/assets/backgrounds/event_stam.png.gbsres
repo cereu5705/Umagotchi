@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "d50dfdeb-cade-4091-9c7f-8bec3c7936c5",
+  "name": "event_stam",
+  "symbol": "bg_event_stam",
+  "tileColors": "",
+  "filename": "event_stam.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

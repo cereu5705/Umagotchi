@@ -1,0 +1,41 @@
+{
+  "_resourceType": "trigger",
+  "id": "5632c94c-9f2f-4068-94fe-2fedacfc7f0e",
+  "name": "sleep",
+  "prefabId": "",
+  "x": 0,
+  "y": 12,
+  "symbol": "trigger_1",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "change to rest or recreation(rec)"
+      },
+      "id": "1129fa5d-83e2-426f-91dc-6b6196b7eea2"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "7bceae40-ca8b-414d-9f41-d5a16789067a",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2",
+        "__collapse": false
+      },
+      "id": "1256e7bd-b8b3-436d-b247-856fc041a9ad"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

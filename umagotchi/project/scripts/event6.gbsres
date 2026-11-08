@@ -1,0 +1,128 @@
+{
+  "_resourceType": "script",
+  "id": "1878ca91-7322-470d-b14e-02b320f62804",
+  "name": "event6",
+  "description": "15 energy+mood?\n- cat",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_15",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Some of the campus\nkitties spent the",
+          "the day relaxing\nwith your trainee.",
+          "Your trainee got\nsome energy and a\nmood up!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "80ed9ff9-505c-47c1-b995-761324b83bf2"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lte",
+          "valueA": {
+            "type": "variable",
+            "value": "8"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "8"
+            },
+            "id": "b15c6b02-b256-49b5-b066-328c2f6957f0"
+          }
+        ],
+        "false": []
+      },
+      "id": "5858ead0-052a-4e52-8355-7962ba449a7c"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gte",
+          "valueA": {
+            "type": "variable",
+            "value": "7"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 85
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "7",
+              "value": {
+                "type": "number",
+                "value": 100
+              }
+            },
+            "id": "fb530011-a02e-4b55-875d-abb26e0b081a"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "7",
+              "expression": "$07$ + 15"
+            },
+            "id": "7437d2b0-3362-427b-8112-6573ae22673c"
+          }
+        ]
+      },
+      "id": "f9a48d8b-fa09-4ab0-85e9-fbe84c1e8417"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "0017a014-2733-4c78-bacc-a34d822c1453",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "b8f58b47-d2c7-4219-ba5e-2137be0a109d"
+    }
+  ]
+}

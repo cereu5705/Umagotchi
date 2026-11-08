@@ -1,0 +1,156 @@
+{
+  "_resourceType": "sprite",
+  "id": "3aeb37d9-e8cb-499d-865d-5e11fc1dc8a8",
+  "name": "digitan",
+  "symbol": "sprite_digitan2x",
+  "states": [
+    {
+      "id": "872c508c-2180-4074-aac8-29d01d04c6c4",
+      "name": "",
+      "animationType": "horizontal",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "c4e25e13-165f-4a3c-9b57-1c3d72f9051a",
+          "frames": [
+            {
+              "id": "a906b17f-b868-41de-813f-4a0f627b0567",
+              "tiles": [
+                {
+                  "id": "3772722a-01bc-4f67-b863-3d384d9ffda2",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "012b706e-a97d-4d7d-bd7d-44777dcb3287",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "22ce6642-f146-4f77-8a9f-d8775a0bd55f",
+          "frames": [
+            {
+              "id": "f73a743d-95a7-43a8-bf6a-8df748115023",
+              "tiles": [
+                {
+                  "id": "8c5f78ae-6206-41c0-8b1d-7ca07bad4396",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "12494d21-1673-4851-80e1-d3f4f4da970c",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "f23288a7-b542-4877-a665-6926a585b25d",
+          "frames": [
+            {
+              "id": "6e046131-97a1-4f3b-9128-db0a46842499",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "fa15f305-78ad-485d-ae7a-f18ed0be6e5e",
+          "frames": [
+            {
+              "id": "a6740a27-28a7-4395-9940-814917017aa0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6240f6e5-f6e7-4127-a9a6-04ab05291091",
+          "frames": [
+            {
+              "id": "3eadee50-3e81-4d31-be91-9640bb3a52d3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2e141c26-37a3-446c-be40-1b27d3a8a926",
+          "frames": [
+            {
+              "id": "18770028-8078-433e-8aec-7cef4a57b1ee",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9146c54e-b416-4990-8217-a307674a90d3",
+          "frames": [
+            {
+              "id": "7f790762-8e7f-40cd-8712-9c3b62f2249a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "956962b9-0d3d-4760-9b42-a9231afcca77",
+          "frames": [
+            {
+              "id": "34d51714-0a9a-4289-a3b3-474ceeacecda",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 4,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "digitan.png",
+  "width": 32,
+  "height": 16,
+  "checksum": "51c7d32a6b829f11e98f409a2155648ed38e8854"
+}

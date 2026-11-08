@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "8a58d57e-583a-477d-8fae-f43120caf987",
+  "name": "race",
+  "symbol": "bg_race",
+  "tileColors": "",
+  "filename": "race.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

@@ -1,0 +1,10 @@
+{
+  "_resourceType": "note",
+  "id": "ce514900-b656-4a2b-b1ba-85d0d318324e",
+  "name": "Note 1",
+  "x": 512,
+  "y": 232,
+  "width": 20,
+  "height": 15,
+  "content": "var:\n0- spd\n1- stm\n2- pwr\n3- guts\n4- wit\n"
+}

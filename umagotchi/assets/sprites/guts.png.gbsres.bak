@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "6b126529-265f-4f70-b207-9367557f4ff0",
+  "name": "guts",
+  "symbol": "sprite_guts",
+  "states": [
+    {
+      "id": "62b8773d-9f3d-4abe-b5ec-325b85347b2c",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "9f01f3e5-e289-461b-87ab-32454b9261e6",
+          "frames": [
+            {
+              "id": "bf7aced4-ad7c-4c09-955e-7a87e29df1e2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "fc73ddc1-9e34-4de6-9a2f-f66da21680b0",
+          "frames": [
+            {
+              "id": "a67e1cab-af3a-4c38-a133-2225319b92e0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4b5e3081-0ffb-45c0-b33c-f2fb2b78a91a",
+          "frames": [
+            {
+              "id": "947ccbfe-7f76-4e4b-b943-deb7892d1e28",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "dacf6000-844c-4941-8be0-d08ce3b6325c",
+          "frames": [
+            {
+              "id": "486ef30f-111d-4128-be6d-f15ae3308d54",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "774df58d-f610-4ffa-a6c3-ddfd3a7cab22",
+          "frames": [
+            {
+              "id": "e92f903d-1049-409b-b13c-79bdb1d1b2bd",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1f2d1591-cc2b-4951-9d2a-d82fe091683a",
+          "frames": [
+            {
+              "id": "7e637bc3-0aa4-4f1d-8d44-46f193d9f90d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6912be1c-0c5f-44c7-962a-0715dc1c1938",
+          "frames": [
+            {
+              "id": "e991d9a0-e86d-4e6b-9f72-6eb550731f59",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "95ddb407-76ab-433e-a445-ab2b8392c67d",
+          "frames": [
+            {
+              "id": "94ef5592-7ae4-4633-a909-1d58115db879",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "guts.png",
+  "width": 31,
+  "height": 15,
+  "checksum": "a386d8b23a1ea1ccc0790d844da11a754d0e3fbe"
+}

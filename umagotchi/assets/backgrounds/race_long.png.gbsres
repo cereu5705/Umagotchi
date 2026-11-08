@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "16fb4f03-a682-45c3-8a11-e4de912e3b04",
+  "name": "race_long",
+  "symbol": "bg_race_long",
+  "tileColors": "",
+  "filename": "race_long.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

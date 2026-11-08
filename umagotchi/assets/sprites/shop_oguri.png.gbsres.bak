@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "596ef261-96b3-4b01-a91f-ae735e53caf7",
+  "name": "shop_oguri",
+  "symbol": "sprite_shop_oguri",
+  "states": [
+    {
+      "id": "4de260b1-8bb3-4fe0-a7a5-69b0f959d294",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "ece6b52f-0b86-44a1-baa5-d43e0893b321",
+          "frames": [
+            {
+              "id": "b9964491-a28b-4462-a016-45a210e77c36",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ac825413-780c-4c9b-be16-a428ce66fa41",
+          "frames": [
+            {
+              "id": "f54ddad5-04f7-4d59-89ae-6a6732421afb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0cbb893d-5fe0-470f-b175-d89fd3614e7f",
+          "frames": [
+            {
+              "id": "5d0c9054-5c71-4aef-bc28-17d13cfa5f43",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "143fd6ca-fba4-4fb4-8f6d-7fe6ddd9d4d9",
+          "frames": [
+            {
+              "id": "8d3dd8a8-db30-4b41-9326-8cbf33ebfb74",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6a7b02c1-2c0d-4bd3-91f5-b9e846e07eb5",
+          "frames": [
+            {
+              "id": "a9a3d5fc-1518-4cbe-a0e3-7415505cc424",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e369e792-6820-44f1-bc43-d5f165d4d28e",
+          "frames": [
+            {
+              "id": "1f0fd59a-aab8-4abe-8112-b516a2e4eb23",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5adada4a-8514-45a8-9c7b-8116d900a5af",
+          "frames": [
+            {
+              "id": "3e691970-abb3-446c-9a5e-13adb2e0043c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3680f0b1-f3dc-4cb8-956a-f72760af3450",
+          "frames": [
+            {
+              "id": "3631c1db-af39-4dc8-bf2f-b48b8173c3c2",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "shop_oguri.png",
+  "width": 22,
+  "height": 22,
+  "checksum": "824f6b85cced9610da5d8b37debaa8d5d798adc0"
+}

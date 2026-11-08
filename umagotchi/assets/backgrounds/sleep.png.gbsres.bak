@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "00c538b2-0aba-4123-ad80-886e98df3c87",
+  "name": "sleep",
+  "symbol": "bg_sleep",
+  "tileColors": "001f4+",
+  "filename": "sleep.png",
+  "width": 20,
+  "height": 25,
+  "imageWidth": 160,
+  "imageHeight": 200
+}

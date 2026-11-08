@@ -1,0 +1,79 @@
+{
+  "_resourceType": "scene",
+  "id": "417ee844-f9ce-4bcd-a918-736e21bb6f76",
+  "_index": 5,
+  "name": "kitchengarden",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_6",
+  "x": 328,
+  "y": 216,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "c2455701-cf2e-44b6-896c-36b157f340d2",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 12
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "b41c8f37-275f-4753-8ade-122a8ec63ae5"
+          }
+        ]
+      },
+      "id": "2bc279e6-4038-4402-8f14-31de9ac6569a"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "9",
+        "value": {
+          "type": "number",
+          "value": 100
+        }
+      },
+      "id": "2c22685d-58f5-4ade-8004-97d1e78d5eea"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Kitchen",
+        "x": 1,
+        "y": 1,
+        "location": "background"
+      },
+      "id": "3801f4f0-8cc0-46af-aaf0-5813151a1d1b"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "labelColor": "yellow"
+}

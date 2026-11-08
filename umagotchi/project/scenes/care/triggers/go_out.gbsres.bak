@@ -1,0 +1,15 @@
+{
+  "_resourceType": "trigger",
+  "id": "ed51a909-9f86-4f76-b831-550c233dd622",
+  "name": "go out",
+  "prefabId": "",
+  "x": 8,
+  "y": 16,
+  "symbol": "trigger_3",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 2,
+  "script": [],
+  "leaveScript": [],
+  "_index": 2
+}

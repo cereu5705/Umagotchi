@@ -1,0 +1,10 @@
+{
+  "_resourceType": "note",
+  "id": "bf06d63f-2a78-45fd-9c54-7437306b0d20",
+  "name": "Note 2",
+  "x": 1184,
+  "y": 48,
+  "width": 20,
+  "height": 15,
+  "content": "todo:\n- art obv\n- training\n- food(cooking? gardening?)\n- stats: track sleep, food, mood, \n- auto get food and sleep when hungry/tired(but then what does sleep/feed buttons become?)\n- maybe feed -> food/garden/cook and you have to restock your fridge/tend garden\n- sleep -> ..? talk? no, click should talk..\n- archive(what is this?)\n- sleep\n- map: race, shop, & fun places(parks, zoo, cafe, etc), club(?)\n- emote based on mood/energy/etc\n- racing\n- home activities(tv, cooking, gardening, playing games, etc)\n- uma interactions\n\n-clamp hunger/sleep values\n\n- max uma: 2-5\n- showagumi first and then goldclan, opera, doto, digitan, jamd etc\n\n- home bg: walls+ bring the back down because emotes get hidden if the sprites are too high up\n- sleep doesn't work so just keep that button in. fridge seems ok for now\n- maybe allow for multiple umas BUT only track 1 (maybe frame it like you're inviting the others to your house)\n\nmaybe only subtract hunger/energy after activities? maybe only energy"
+}

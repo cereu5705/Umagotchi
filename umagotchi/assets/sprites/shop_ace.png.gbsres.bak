@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "36c239f3-8d9d-40ab-80f7-ba44a2e5ce3e",
+  "name": "shop_ace",
+  "symbol": "sprite_shop_ace",
+  "states": [
+    {
+      "id": "b85eee8b-35eb-4b6f-8370-5466980a5a04",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "88872dab-ee08-4dfc-9648-6b03ebfc6102",
+          "frames": [
+            {
+              "id": "b6c0ee62-82e7-4794-8ae7-218e6ec4d391",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9c162dbf-3d92-411d-b00e-4fd105032384",
+          "frames": [
+            {
+              "id": "07ef96cd-4835-43ca-a8bc-0e82eb2bfb2e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d4ad5a3b-caf7-41ab-9da8-a441a472154f",
+          "frames": [
+            {
+              "id": "6b297b4f-6f99-47cb-82ff-bf73710a07b4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3f4a2d25-91b9-43f6-8707-d71080674eab",
+          "frames": [
+            {
+              "id": "c2a90d9d-7ae5-4a1b-8043-4b87a8e23dec",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7b1d12de-481a-4f0d-b9c2-ddc3708319f1",
+          "frames": [
+            {
+              "id": "189f4ebd-dc2a-4003-8220-599539746250",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2375a4d0-3900-46a8-8ee5-62ad88d58c36",
+          "frames": [
+            {
+              "id": "5b09844c-2934-4dea-b30e-30c49dc537f7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "16662014-5714-4559-aa30-eab07697162a",
+          "frames": [
+            {
+              "id": "e2e9f982-1007-42b6-a435-fd876fdaeea8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c6a9e1a8-304a-47d5-b6b7-bf19920941df",
+          "frames": [
+            {
+              "id": "aba80e55-ec09-4fcd-ba9f-d86d39020793",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "shop_ace.png",
+  "width": 22,
+  "height": 22,
+  "checksum": "43241d399eb555b1e6ae6c6d1cd73954a2bc6f8f"
+}

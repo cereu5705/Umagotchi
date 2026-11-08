@@ -1,0 +1,10 @@
+{
+  "_resourceType": "note",
+  "id": "0cc99c50-1cd6-4ea9-ba65-93d69eeb0695",
+  "name": "Note 10",
+  "x": 320,
+  "y": 376,
+  "width": 20,
+  "height": 15,
+  "content": "i think i've been fucking up the \nrnd function\nit's greater than 0 but less than a..but it doesnt feel like it idk\nactually it does give out 0s, so...that probably screws some of my formulas up\nOK i think it's \"greater than or equal to 0 but less than a\""
+}

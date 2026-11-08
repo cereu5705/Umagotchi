@@ -1,0 +1,198 @@
+{
+  "_resourceType": "scene",
+  "id": "417ee844-f9ce-4bcd-a918-736e21bb6f76",
+  "_index": 3,
+  "name": "Claw Machine",
+  "backgroundId": "d0663d56-861b-43e5-97f5-89b9ae7f13ba",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "ea239fd5-3cdb-4c01-bd01-bafbe0500ca9",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "spritePaletteIds": [
+    "dmg",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "collisions": "",
+  "autoFadeSpeed": 3,
+  "symbol": "scene_6",
+  "x": 144,
+  "y": 528,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 3
+        },
+        "__collapse": true
+      },
+      "id": "83766bcf-6410-46f7-9d51-151bbf52fc7a"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 2,
+        "__collapse": true
+      },
+      "id": "5fa66fc6-e52b-47e1-8a65-45b566123d0b"
+    },
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "- have controls in bg image (a to grab, arrow keys to move)\n- totally random probably\n- OR have the prizes a bit obscured by other tiles and you grab whichever one you want",
+        "__collapse": true
+      },
+      "id": "f09a5b76-b64a-40be-8aac-92675f8b22cb"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Your trainee plays\nthe claw machine."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "8ca95fb0-8512-40e1-99cf-79405d78d773"
+    },
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "up",
+          "down"
+        ],
+        "__collapse": true
+      },
+      "id": "ab3127b4-2dc3-44f7-bed4-5ab41bb909e0"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "__section": "movement",
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "horizontal",
+              "__collapse": false
+            },
+            "id": "f28a4da3-e2f1-4940-a600-110aa142923f"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": {
+                "type": "number",
+                "value": 1.5
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "c10f3fb9-03ca-4dc7-a123-9256a4eb0637"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 1
+            },
+            "id": "33c4442f-1a6c-4b0a-abc2-21ee5d07278b"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "__section": "movement",
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": -8
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "horizontal",
+              "__collapse": false
+            },
+            "id": "ec17a108-c566-4fe0-908d-2610ca15693b"
+          }
+        ]
+      },
+      "id": "a85e2573-3b4c-4ff7-9d8a-d2d2097da064"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "labelColor": "orange",
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "7129d057-9a6a-4198-8a50-aa3d2d1b710a"
+}

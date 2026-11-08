@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "d61d46ea-7700-4879-bcd6-ba25102b1de9",
+  "name": "shop_pokke",
+  "symbol": "sprite_shop_pokke",
+  "states": [
+    {
+      "id": "37dd7a5d-f5ce-4f99-a8a9-756990ecefde",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "f8f1e6c2-f94a-4b9e-b3f2-27a05910f03e",
+          "frames": [
+            {
+              "id": "e01057f4-0360-4d74-a391-b7b0b9213420",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b1d2ed20-e56e-4712-ba62-7332b5f9de64",
+          "frames": [
+            {
+              "id": "8a257bcb-6c64-4638-b998-7bf39dfed4c8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "55b63d2e-702c-4073-8ad5-140b58d060d6",
+          "frames": [
+            {
+              "id": "728cffd7-c685-4d91-bb5c-7d06a2e5833f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3b8611af-3e0e-4319-b908-3a5ea538946f",
+          "frames": [
+            {
+              "id": "65e7ab15-312a-438c-bab7-bf69d78f06db",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "962ffe83-a5e0-4b17-98ee-3e00fa44e42d",
+          "frames": [
+            {
+              "id": "5339f811-9674-46aa-8cce-34f576611703",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "afdbf515-faae-4b8d-9aa8-67f9af3458e5",
+          "frames": [
+            {
+              "id": "7911ac84-05b3-4730-9ea4-ee728c897118",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4386f3ae-1a2c-4dd7-87aa-23978c469330",
+          "frames": [
+            {
+              "id": "bb6b5a62-ceed-40f9-a78a-200d44acb094",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4fe256b3-bef9-4d35-a317-d17feb8900fb",
+          "frames": [
+            {
+              "id": "1fa61595-9584-4757-bcfd-aa5612d4eb8a",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "shop_pokke.png",
+  "width": 22,
+  "height": 22,
+  "checksum": "3c13a7fb591b472db90384177bf5e8206aade346"
+}

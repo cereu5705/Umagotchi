@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "6d67eab5-c605-4af5-a3c3-6e4e4cf64377",
+  "name": "race_dirt",
+  "symbol": "bg_race_dirt",
+  "tileColors": "",
+  "filename": "race_dirt.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

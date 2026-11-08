@@ -1,0 +1,240 @@
+{
+  "_resourceType": "script",
+  "id": "56341fe9-6ee9-4ca1-9d2e-1139191f5fc6",
+  "name": "laterace",
+  "description": "a = laterace score\nb = guts\nc = spd\nd = stm\ne = track stam requirements",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "trainee score",
+      "passByReference": true
+    },
+    "V1": {
+      "id": "V1",
+      "name": "rival score",
+      "passByReference": true
+    },
+    "V2": {
+      "id": "V2",
+      "name": "track stam req",
+      "passByReference": true
+    },
+    "V3": {
+      "id": "V3",
+      "name": "outcome",
+      "passByReference": true
+    },
+    "V4": {
+      "id": "V4",
+      "name": "overall",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "script_7",
+  "script": [
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "V0",
+        "expression": "$03$/100 + (rnd($00$/100)/2)",
+        "__collapse": true
+      },
+      "id": "68cfb219-4fb7-4509-aa0d-359a2333042c"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "V2"
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "V0",
+              "value": {
+                "type": "div",
+                "valueA": {
+                  "type": "variable",
+                  "value": "V0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 2
+                }
+              }
+            },
+            "id": "c7de8d03-48a1-4a8a-955a-722e0cc3adcb"
+          }
+        ],
+        "false": []
+      },
+      "id": "9543eb0f-a0ec-4b35-b496-0366f1ddffd3"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "V1",
+        "expression": "$22$/100 + (rnd($19$/100)/2)",
+        "__collapse": true
+      },
+      "id": "eed244ab-3c24-4012-b19b-1f6ca97f28c9"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "21"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "V2"
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "V1",
+              "value": {
+                "type": "div",
+                "valueA": {
+                  "type": "variable",
+                  "value": "V1"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 2
+                }
+              },
+              "__collapse": true
+            },
+            "id": "653814aa-0810-4192-bc44-180e237e5045"
+          }
+        ],
+        "false": []
+      },
+      "id": "1d788869-8fab-4580-8d9a-e1c8516b0e8f"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "V0"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "V1"
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "V3",
+              "value": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "id": "cd9f0090-bc37-468f-a766-0f8ad6d9b813"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "V0"
+                },
+                "valueB": {
+                  "type": "variable",
+                  "value": "V1"
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "V3",
+                    "value": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "7f42d338-b94e-4982-8f7a-482f075ec0e1"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "V3",
+                    "value": {
+                      "type": "number",
+                      "value": 0
+                    }
+                  },
+                  "id": "d02469f1-ddc9-485b-b32d-6225839062be"
+                }
+              ]
+            },
+            "id": "a82d3248-2a68-4179-8854-4373bb75d65b"
+          }
+        ]
+      },
+      "id": "9b0000cf-29ec-4998-9275-55b120125532"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "V4",
+        "value": {
+          "type": "add",
+          "valueA": {
+            "type": "variable",
+            "value": "V4"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "V3"
+          }
+        }
+      },
+      "id": "499d2171-ef2b-4a6e-9d6e-50f18bd5468a"
+    }
+  ]
+}

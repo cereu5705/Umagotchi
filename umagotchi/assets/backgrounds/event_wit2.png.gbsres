@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "4d37cb1e-03ed-4643-9b9a-25d1902b707b",
+  "name": "event_wit2",
+  "symbol": "bg_event_wit2",
+  "tileColors": "",
+  "filename": "event_wit2.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

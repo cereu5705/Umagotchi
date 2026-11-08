@@ -1,0 +1,155 @@
+{
+  "_resourceType": "sprite",
+  "id": "9a1a067b-6154-4f2c-a36d-59521a82fd96",
+  "name": "stam",
+  "symbol": "sprite_stam",
+  "states": [
+    {
+      "id": "489216ea-c723-4d81-95f4-a6e629c49025",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "8176e9d8-a553-4131-a1dd-85b550b1314c",
+          "frames": [
+            {
+              "id": "63c5d948-5a7a-4fa1-ab4b-cb4243c51a9b",
+              "tiles": [
+                {
+                  "id": "dd2f71d5-952f-4077-ab3c-447d7ef62118",
+                  "x": -8,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": -1,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "f8439c70-cbc9-4e1e-afbd-554b84d5a642",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": -1,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "420e93fa-ae56-45ef-8360-d4f07a108986",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": -1,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "2bb44adb-a5bc-4daa-9d17-213d495722b5",
+                  "x": 16,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": -1,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "462b2381-338e-480f-9d0f-967017003b88",
+          "frames": [
+            {
+              "id": "6588dab3-ecdb-4400-8aee-47b6e9ef8a91",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5289a9f3-deb6-43a9-984f-48dfe31b0ba7",
+          "frames": [
+            {
+              "id": "2f8a3527-386b-445f-b9d3-4940fd487b01",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b39bcfc3-6909-4b0a-a256-b7ee5aa0756a",
+          "frames": [
+            {
+              "id": "2226fc12-d6ec-4a44-b850-15ea94777c70",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "84ef1fc3-d715-4d5e-af2d-9aadbd3333c8",
+          "frames": [
+            {
+              "id": "688258c0-78ca-49cf-bcc5-ab2ce0636eb8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3c1cd902-a16c-4192-b26e-a25f4e92a73e",
+          "frames": [
+            {
+              "id": "3741f18e-2010-4095-a54b-6d708b743cf8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8435b83a-6210-42f1-9e4f-3ba6e0c56512",
+          "frames": [
+            {
+              "id": "7c95b968-7c81-41fd-9a65-bd2ae6d8e7fa",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e50cfe97-ab63-4613-baf7-a72df3aad75f",
+          "frames": [
+            {
+              "id": "809f444d-541d-4723-a19e-6b9d81a61d94",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 4,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "stam.png",
+  "width": 31,
+  "height": 15,
+  "checksum": "618789b10bf004e8e41741048b7b66ca0a810b76"
+}

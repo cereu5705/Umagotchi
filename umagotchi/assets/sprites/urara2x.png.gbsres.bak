@@ -1,0 +1,160 @@
+{
+  "_resourceType": "sprite",
+  "id": "6b515170-b373-4057-8a39-e833401213a9",
+  "name": "urara2x",
+  "symbol": "sprite_urara2x",
+  "states": [
+    {
+      "id": "5dbf6fcc-4213-45ab-9fd7-1c384532eaec",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "304191b2-579b-44b8-b830-798f98a257dd",
+          "frames": [
+            {
+              "id": "07d974a8-8028-4d52-a45c-758d4a64e37f",
+              "tiles": [
+                {
+                  "id": "bcdf377f-34a3-49d5-a478-2a4236ad9d06",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "130e434d-1cde-4607-b7d9-e55553cb6fbf",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "30a9172f-91e9-40cb-a18b-7893c3ab7267",
+              "tiles": [
+                {
+                  "id": "331d0475-2148-42ac-9a4e-1a0379cbd383",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "8b7c354c-b3fe-4c68-8cc2-36c2398b612c",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "df679cbd-da04-410b-a542-0de1d26362a8",
+          "frames": [
+            {
+              "id": "286773a0-f2f7-4740-bb5a-d43627613aea",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7a2c2771-d9e3-4058-8222-6dd95ad5192d",
+          "frames": [
+            {
+              "id": "cea492f0-50a7-4b69-bc4e-27dcad1045b4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "be60f292-ff05-4ea9-865a-896668031d02",
+          "frames": [
+            {
+              "id": "6bc2b5ac-5b8d-4c7d-8bf2-ada5abaf03af",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "45ba6641-d992-43a9-81ac-358544798bb1",
+          "frames": [
+            {
+              "id": "eb3ac818-f879-45bc-a8a6-67e695f79bde",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f445ba67-0dae-4cce-aae6-ec49ad59b390",
+          "frames": [
+            {
+              "id": "67a06cb2-beeb-4381-ae4f-fd25f65d23c1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c8a9df3b-e25a-49d3-8e0b-16962f5d83e6",
+          "frames": [
+            {
+              "id": "5b5e4318-a5a5-43df-bdb4-cc3d361a04cb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "bdf900ec-62d6-4401-a7e7-aad86ba61b98",
+          "frames": [
+            {
+              "id": "9f2fda24-080b-4f55-a133-cb16c8e8b715",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 3,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "urara2x.png",
+  "width": 64,
+  "height": 64,
+  "checksum": "a39f9adfbeaf3025cb866276bbda65dfb5ead260"
+}

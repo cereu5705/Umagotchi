@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "69f388b9-a6f0-4c68-b533-8fb9c7ea58e4",
+  "_index": 17,
+  "name": "mile race",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_18",
+  "x": 496,
+  "y": 864,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

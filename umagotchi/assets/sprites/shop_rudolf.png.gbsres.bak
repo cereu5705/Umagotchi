@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "66d4d601-a02a-47c7-8d6c-d1571a7e4d0a",
+  "name": "shop_rudolf",
+  "symbol": "sprite_shop_rudolf",
+  "states": [
+    {
+      "id": "c82c9373-20f2-4947-a3c9-683f0977010e",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "9f23f378-9aeb-4d8a-86e7-9298b2374066",
+          "frames": [
+            {
+              "id": "d511cc6c-9b0c-45de-b102-d17dcfcb7a25",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c34ce9eb-79b7-4600-b360-2ce07dc4f904",
+          "frames": [
+            {
+              "id": "0670e74c-9511-4dc9-9015-c7349e9911d8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2ed94f49-1ce8-4401-9239-69ed2a85c84c",
+          "frames": [
+            {
+              "id": "84ce9823-e61f-4e0e-918e-06472cd33f7e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7815bf66-bcd6-4595-9b2b-ac07d1d0412b",
+          "frames": [
+            {
+              "id": "38a1e7b0-d7e9-4b29-933e-876377aa9866",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a0f45b36-e0bf-4d0f-b693-85ee867daeec",
+          "frames": [
+            {
+              "id": "5887e4ed-121d-4d47-85bf-b4bc63044b84",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "36a573fa-da9e-4f63-907a-6004e6af4b04",
+          "frames": [
+            {
+              "id": "5d3d9857-999c-45d4-a4d3-fa361ffbf219",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "70facc21-7283-49f8-adee-c985bf5ab873",
+          "frames": [
+            {
+              "id": "6846f339-4730-4803-98f5-b5ee224c401b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6d08180f-b119-4314-a70c-b7dce2290a92",
+          "frames": [
+            {
+              "id": "33a3ecc8-d967-40a2-8546-8ee308b548d7",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "shop_rudolf.png",
+  "width": 22,
+  "height": 22,
+  "checksum": "53edc4cadd88f92f05a649617f28d134b28374e5"
+}

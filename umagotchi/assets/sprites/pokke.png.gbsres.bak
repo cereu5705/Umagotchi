@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "01e33d84-f0a6-40fe-9acb-a8d8510585e3",
+  "name": "pokke",
+  "symbol": "sprite_pokke",
+  "states": [
+    {
+      "id": "340e2ae3-d9e9-4c0e-adb2-5d98aab8acfa",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "a53e17c6-172a-4a48-9e07-d5d7ec7db9ec",
+          "frames": [
+            {
+              "id": "a71e55e4-cfbe-49b6-a255-5a479366b250",
+              "tiles": [
+                {
+                  "id": "6c296b21-20d3-4458-af57-e811f5af03e3",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "1fbf7a1d-7323-4682-8bb5-a18cacf36da3",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9500d4de-5053-4407-9510-b83d44fd50d3",
+          "frames": [
+            {
+              "id": "5f41a004-8dcd-4f35-9aec-1020d7fc0fcc",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "55d7715d-6c0f-4809-b850-f686dbf3aa51",
+          "frames": [
+            {
+              "id": "bb4d8cb3-cb19-46f3-a74a-e54fd9abc795",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e95d87a2-212b-43ea-ab39-1f112824c650",
+          "frames": [
+            {
+              "id": "de1d5371-24b0-48dd-80d7-3244e73c0071",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5fb147e2-ccc9-4db8-bd44-d2e4b6ecc772",
+          "frames": [
+            {
+              "id": "66230f52-752a-4754-b0af-6f9a6702584d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e5573d99-fda3-4e68-9a62-81d364c7daa9",
+          "frames": [
+            {
+              "id": "bd11ce2d-0bae-4afa-b027-85ef40121480",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c2771a7b-2a15-4cd8-aa70-d697174ae801",
+          "frames": [
+            {
+              "id": "4c17643e-3470-4226-8817-673b4a557e5e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "afed9855-b645-4952-9208-11325c860972",
+          "frames": [
+            {
+              "id": "0d2d0eae-f532-4a88-a398-8010a28b8ada",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "pokke.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "332153830b30488948192556576c91eeeb6f4c84"
+}

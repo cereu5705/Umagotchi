@@ -1,0 +1,197 @@
+{
+  "_resourceType": "scene",
+  "id": "fef3e93a-c2bd-4efb-b38b-a29b1417df51",
+  "_index": 7,
+  "name": "New Game",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "dmg",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "dmg"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 2,
+  "symbol": "scene_1",
+  "x": 320,
+  "y": 32,
+  "script": [
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "Add tazuna sprite"
+      },
+      "id": "bad0bde7-ee77-4e98-b676-0c4a810bdd87"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": false
+      },
+      "id": "d2214050-5437-4580-a91d-4994d00a6443"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Welcome to Tracen\nAcademy, Trainer!",
+          "My name is Tazuna,\nand I'm here to\nassign an",
+          "Umamusume trainee\nto you.",
+          "Train her well,\nso that she can\nreach her goals!",
+          "Would you like a \nbrief tutorial\nbefore starting?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 3,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "9865a0cc-0c43-443b-8c9f-e254761386a8"
+    },
+    {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "L0",
+        "items": 2,
+        "option1": "Yes",
+        "option2": "No",
+        "option3": "",
+        "option4": "",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": true,
+        "layout": "menu",
+        "cancelOnLastOption": true
+      },
+      "id": "266556b5-796a-44e3-91d1-cdc2e7243f46"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "TRAIN: Gain stats\nso that she can\nwin the 3 races",
+                "that will complete\nher career.",
+                "REST: Low energy\nreduces training\nsuccess rates,",
+                "so make sure your\ntrainee gets her\nrest!",
+                "REC: Take her on\nsome recreational\nactivities to",
+                "boost her mood and\nfor other bonuses.",
+                "RACE: Each trainee\nhas a different\nset of 3 races to",
+                "complete(sprint,\nmile, medium,\nlong, and dirt).",
+                "However, no need\nto worry, as there\nis no time limit.",
+                "MENU: SAVE your\ngame and see your\nSTATS."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 3,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "5f7c3652-0b70-4ea7-b9ea-8f678d153399"
+          }
+        ],
+        "false": []
+      },
+      "id": "b2ccf9ce-9cc2-4070-acee-f705e1519884"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Now, Trainer,\nplease select a\njunior trainee."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "bff1c658-d9bf-4e10-95e2-67018988629a"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "240618b5-364a-4fd2-ae0a-c84c2e6042ec",
+        "x": {
+          "type": "number",
+          "value": 4
+        },
+        "y": {
+          "type": "number",
+          "value": 4
+        },
+        "direction": "down",
+        "fadeSpeed": 3
+      },
+      "id": "3141a6bd-cc09-40e4-afd6-5b6044e57ab4"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
+}

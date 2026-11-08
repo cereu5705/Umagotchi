@@ -1,0 +1,113 @@
+{
+  "_resourceType": "script",
+  "id": "42d90b22-d39d-4b99-bef8-232b02e20901",
+  "name": "event3",
+  "description": "pwr\n- gym(ryan?)",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "trainee"
+    }
+  },
+  "symbol": "script_12",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Hey, you should\njoin us for a\nworkout!",
+          "Just seeing\nthese two makes\nmy own muscles",
+          "pumped to keep\nup too! Let's\ngo, biceps!"
+        ],
+        "__section": "text",
+        "avatarId": "1832779e-12a3-40a9-bdb9-afbf5217090d",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "2fcfd46e-2628-4d05-91eb-90ab5e9c114e"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "0",
+        "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd"
+      },
+      "id": "c2c4584a-3341-4b7a-817b-7218a9401c61"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Working out at the\ngym with her\nfriends motivates",
+          "your trainee to\nwork harder and\nget more gains!",
+          "Your trainee got\n15 power!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "5941c38d-f3d9-4064-8d10-ed196090fd3c"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "add",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 15
+          }
+        }
+      },
+      "id": "c3907bc6-a274-4879-8da2-eaa0f383eadd"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "0017a014-2733-4c78-bacc-a34d822c1453",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "d76f57dc-9792-43d9-948b-b0045958fe2e"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "84856a99-d8ea-43b0-bb9f-ba4c32c36d93",
+  "name": "fuku",
+  "symbol": "sprite_fuku",
+  "states": [
+    {
+      "id": "3dfd7e41-4f25-4d13-aa09-e6dcccd09ef8",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "120537ef-9c0a-409f-bc76-8bfd0686a4a7",
+          "frames": [
+            {
+              "id": "5fcf71b3-3820-4c85-ab1b-0fc9c9f3f9bd",
+              "tiles": [
+                {
+                  "id": "c4cb8d1a-2b28-4b16-a316-cbbf5c0597c2",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "acdf3c5d-1b67-4837-85e0-f9c6159ff74a",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ca930880-5f97-4a01-9f2c-f6190130f7b8",
+          "frames": [
+            {
+              "id": "e518a1ca-4aef-41a9-8939-57510358d02c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3f81770b-f419-4800-9dec-eaade11c76a2",
+          "frames": [
+            {
+              "id": "ba8c062d-9b44-4a44-a0aa-219ffdf1162b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "04677f10-2464-497a-8175-cc18e27510a5",
+          "frames": [
+            {
+              "id": "4150f50e-4d23-4e3f-82da-83b98bceb5ef",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "452e7f19-e53f-4e6a-b184-4894619a386a",
+          "frames": [
+            {
+              "id": "a3949ac4-a0c1-4dbb-bf05-945a32bf3b7c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "fda94a5d-da31-4444-abb8-27d281cdb905",
+          "frames": [
+            {
+              "id": "92ef2695-d414-481c-80e4-8469cdf5848e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "685feeb3-e242-4ab4-963c-21918aa93312",
+          "frames": [
+            {
+              "id": "2baabd16-41dc-421d-a4d1-998e8975687d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "953ab743-9f35-4c1e-b225-9d7c073d4497",
+          "frames": [
+            {
+              "id": "3822fd10-5e14-4cc0-8b99-0236df40acf7",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "fuku.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "7bc6640ccb366eaaf686ec6f68d9612460bf2280"
+}

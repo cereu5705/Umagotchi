@@ -1,0 +1,121 @@
+{
+  "_resourceType": "scene",
+  "id": "a1f3f821-5788-440f-81e5-4ee125d7950b",
+  "_index": 23,
+  "name": "event_wit",
+  "backgroundId": "63024c67-fcfa-4b83-9f58-39118238fc07",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_26",
+  "x": 848,
+  "y": 1536,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "243051e7-abed-46ec-a403-7120f0a3eb05"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "798aa831-58a0-4161-a9ea-7f089c2ea36d",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "$actor[0]$": "1bc85f84-3072-4a8f-9b91-14ec704210ba",
+        "$actor[1]$": "21a2452f-463f-4276-8987-5fbf8a2333b3"
+      },
+      "id": "f0e3b191-1d6e-4549-9e70-5000d83307a5"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Gah! I spent the\nwhole weekend\nthinking about",
+          "only motorcycles\nand forgot to do\nmy homework!"
+        ],
+        "__section": "text",
+        "avatarId": "24914939-4fbf-4e5b-8d9e-9ab6379b96e5",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "351d50cb-3542-41c2-bf28-605eda6b3fb2"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "(Sigh)I told you\nso. Now, are you\ngoing to ask for",
+          "my hel--\nHey, where are\nyou going?!"
+        ],
+        "__section": "text",
+        "avatarId": "80887898-a367-4a3b-a274-affa4bec9f25",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "5752dec8-4809-4c7b-b783-b5687c9cc5c0"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Quit nagging! I\ncan finish this\nwithout you!"
+        ],
+        "__section": "text",
+        "avatarId": "24914939-4fbf-4e5b-8d9e-9ab6379b96e5",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "5ba50b8a-c624-423e-b32c-78f9ba5de716"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

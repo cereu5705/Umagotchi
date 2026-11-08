@@ -1,0 +1,49 @@
+{
+  "_resourceType": "settings",
+  "worldScrollX": 623.085693359375,
+  "worldScrollY": 0,
+  "zoom": 100,
+  "navigatorSplitSizes": [
+    72,
+    205,
+    222,
+    30,
+    171
+  ],
+  "showNavigator": true,
+  "showCollisions": true,
+  "showConnections": "selected",
+  "showSceneScreenGrid": false,
+  "previewAsMono": false,
+  "showCollisionSlopeTiles": false,
+  "favoriteEvents": [
+    "EVENT_TEXT",
+    "EVENT_SWITCH_SCENE",
+    "EVENT_COMMENT",
+    "EVENT_SET_VALUE",
+    "EVENT_IF",
+    "EVENT_VARIABLE_MATH_EVALUATE",
+    "EVENT_CALL_CUSTOM_EVENT",
+    "EVENT_WAIT"
+  ],
+  "debuggerEnabled": false,
+  "debuggerScriptType": "editor",
+  "debuggerVariablesFilter": "all",
+  "debuggerCollapsedPanes": [],
+  "debuggerPauseOnScriptChanged": false,
+  "debuggerPauseOnWatchedVariableChanged": false,
+  "debuggerBreakpoints": [
+    {
+      "scriptEventId": "3d339972-f9fb-4782-8e4e-dc7fd79be2c7",
+      "context": {
+        "type": "entity",
+        "entityType": "actor",
+        "entityId": "527463a9-f50c-48d1-8e29-27bce4187dd4",
+        "sceneId": "c2455701-cf2e-44b6-896c-36b157f340d2",
+        "scriptKey": "updateScript"
+      }
+    }
+  ],
+  "debuggerWatchedVariables": [],
+  "openBuildLogOnWarnings": true
+}

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "3dd2892b-00f1-4809-930b-f2a4e8bc5605",
+  "name": "karaoke",
+  "symbol": "bg_karaoke",
+  "tileColors": "",
+  "filename": "karaoke.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

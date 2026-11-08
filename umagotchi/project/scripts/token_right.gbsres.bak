@@ -1,0 +1,35 @@
+{
+  "_resourceType": "script",
+  "id": "4c26d1c6-0f80-4431-b8a1-acebe84d83e1",
+  "name": "token right",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "symbol": "script_3",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "__section": "options",
+        "actorId": "0",
+        "x": {
+          "type": "number",
+          "value": 20
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "collideWith": [],
+        "lockDirection": [],
+        "moveType": "horizontal"
+      },
+      "id": "c0ec1aeb-76be-4b8b-82c1-b1640c565382"
+    }
+  ]
+}

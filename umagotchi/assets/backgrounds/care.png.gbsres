@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "196588cc-cf7b-49b6-9c3f-a58ddd009988",
+  "name": "care",
+  "symbol": "bg_care",
+  "tileColors": "00f0+01!002+012+002+012+002+012+002+012+002+0116+0012+012+0012+012+0012+01!0214+",
+  "filename": "care.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "autoColor": false
+}

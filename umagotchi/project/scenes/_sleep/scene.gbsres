@@ -1,0 +1,310 @@
+{
+  "_resourceType": "scene",
+  "id": "7bceae40-ca8b-414d-9f41-d5a16789067a",
+  "_index": 6,
+  "name": " sleep",
+  "backgroundId": "00c538b2-0aba-4123-ad80-886e98df3c87",
+  "tilesetId": "",
+  "width": 20,
+  "height": 24,
+  "type": "POINTNCLICK",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "default-bg-5",
+    "default-bg-3",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "spritePaletteIds": [],
+  "collisions": "001e0+",
+  "autoFadeSpeed": 3,
+  "symbol": "scene_9",
+  "x": 840,
+  "y": 32,
+  "script": [
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "- change to REST\n- also cures injuries/illnesses"
+      },
+      "id": "1245fc70-ad7a-4f7a-90d5-8c1785f93b3b"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 5
+        },
+        "__collapse": false
+      },
+      "id": "f5080748-7b71-45a4-b56e-8744c79b0071"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 0.5,
+        "__collapse": false
+      },
+      "id": "59e024ee-4d7d-4018-a8af-727ed15b3e68"
+    },
+    {
+      "command": "EVENT_OVERLAY_SHOW",
+      "args": {
+        "color": "black",
+        "x": 0,
+        "y": 0,
+        "__collapse": true,
+        "__comment": false
+      },
+      "id": "104d35ac-1632-43c2-997e-dc72a5d689b8"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L1",
+        "value": {
+          "type": "rnd",
+          "value": {
+            "type": "number",
+            "value": 100
+          }
+        },
+        "__collapse": false
+      },
+      "id": "12796727-60ab-441e-99d2-102cde110e81"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "L1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 80
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "value": {
+                "type": "number",
+                "value": 70
+              }
+            },
+            "id": "4146a4ec-0745-4e03-8d13-8ea194a841aa"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "lt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 10
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "L0",
+                    "value": {
+                      "type": "number",
+                      "value": 30
+                    }
+                  },
+                  "id": "8a65f9a2-09c9-4f2c-9ba3-86f0f3ffdfdb"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "L0",
+                    "value": {
+                      "type": "number",
+                      "value": 50
+                    }
+                  },
+                  "id": "e2aeef8b-ddbc-40f8-92bf-bb82510f00cb"
+                }
+              ]
+            },
+            "id": "1c990386-5a2d-4eb3-b0ba-70c9af6f58b8"
+          }
+        ]
+      },
+      "id": "609488b2-b20e-4e63-872a-b97d55a32220"
+    },
+    {
+      "command": "EVENT_OVERLAY_HIDE",
+      "args": {
+        "__collapse": true,
+        "__comment": false
+      },
+      "id": "4ac2c62f-4110-470a-96a9-b12700c31ed6"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "__section": "movement",
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 24
+        },
+        "collideWith": [
+          "walls"
+        ],
+        "lockDirection": [],
+        "moveType": "horizontal",
+        "__collapse": true
+      },
+      "id": "b734a6f9-eccf-41a5-9970-63327821358b"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Your trainee has\ngained $L0$ energy!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "ac771612-f754-44e0-9496-5bf677949476"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "7",
+        "value": {
+          "type": "add",
+          "valueA": {
+            "type": "variable",
+            "value": "7"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "L0"
+          }
+        },
+        "__collapse": true
+      },
+      "id": "abf2d7cb-6386-4464-8436-bb419ffe2ad5"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "7"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 100
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "7",
+              "value": {
+                "type": "number",
+                "value": 100
+              }
+            },
+            "id": "e5551b27-61b0-4609-8a75-f471ad630784"
+          }
+        ],
+        "false": []
+      },
+      "id": "3e6f7aef-dcdf-445c-bf04-077c92f56d5b"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "3a4be46b-3100-4f74-b9ea-c1002c243956",
+        "x": {
+          "type": "number",
+          "value": 1
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        },
+        "direction": "",
+        "fadeSpeed": "2",
+        "__collapse": true
+      },
+      "id": "0d7be4cb-3fa7-4273-a250-90d9825b1c9d"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "labelColor": "blue",
+  "autoFadeEventCollapse": true,
+  "scrollBounds": {
+    "x": 0,
+    "y": 0,
+    "width": 20,
+    "height": 24
+  },
+  "playerSpriteSheetId": "6cd7413e-2434-45f2-a878-ed99ad63cdce"
+}

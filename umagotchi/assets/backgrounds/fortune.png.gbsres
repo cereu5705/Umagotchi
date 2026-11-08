@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "1546094e-62fc-4ceb-894f-b517da828a6c",
+  "name": "fortune",
+  "symbol": "bg_fortune",
+  "tileColors": "",
+  "filename": "fortune.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

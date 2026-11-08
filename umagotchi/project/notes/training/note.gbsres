@@ -1,0 +1,10 @@
+{
+  "_resourceType": "note",
+  "id": "e57b1fbd-6a87-4440-aa02-662120aec7ba",
+  "name": "Training",
+  "x": 1008,
+  "y": 208,
+  "width": 20,
+  "height": 15,
+  "content": "formulas: https://uma.guide/guides/career-mechanics\n\nalso for home ui:\n- maybe make mood and energy icons instead\n- text visual glitch when closing menu\n- i figured it out. draw text is the devil. try to use dialogue command instead"
+}

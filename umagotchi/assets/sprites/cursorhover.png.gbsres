@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "6cd7413e-2434-45f2-a878-ed99ad63cdce",
+  "name": "cursorhover",
+  "symbol": "sprite_cursorhover",
+  "states": [
+    {
+      "id": "db6cc3f5-d16c-4fee-a3d0-08e2885bdea8",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "cdb095a7-27ab-42b8-a77b-04aaf2288a74",
+          "frames": [
+            {
+              "id": "a8616352-7156-40e9-abce-6bef069e9585",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1904cb3b-3665-4b44-8428-c670487e3e84",
+          "frames": [
+            {
+              "id": "f3bd5c24-dfec-4fe5-ae56-3862ec4cdaf6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5ff57cb1-36d6-4144-aecc-21fde12a01e2",
+          "frames": [
+            {
+              "id": "441b3587-76d7-4d0f-aadd-9a6861370c70",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5385c1f4-80df-4a47-a404-73765eaf13d8",
+          "frames": [
+            {
+              "id": "c3e6f2f6-e87a-4e30-8cb6-2dc4a9e26f6d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5c1a7265-6373-42ec-905d-2ad633194d83",
+          "frames": [
+            {
+              "id": "6860a54a-adc5-4c4f-b156-f977aae2e4a4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "75a5a864-06b3-4ec7-a1f9-8ec802cc5a6c",
+          "frames": [
+            {
+              "id": "95d0e106-8bd9-4b3a-9a4b-353ac20e56bd",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5fa05d64-6f1e-42fb-9d66-f379e94d6d61",
+          "frames": [
+            {
+              "id": "e0551582-ca67-4476-8582-b26d4e2b2c2c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "cfc4e581-9ceb-40da-94f1-315d2b6a5f30",
+          "frames": [
+            {
+              "id": "96b63a78-5cec-4596-8b4f-4d758b678781",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "cursorhover.png",
+  "width": 8,
+  "height": 8,
+  "checksum": "fbc4fbe56b1336ef06a289f8f7464e8c9b7866db"
+}

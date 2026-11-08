@@ -1,0 +1,116 @@
+{
+  "_resourceType": "sprite",
+  "id": "efc8ab80-3ecc-4abe-be09-1472e8169c1c",
+  "name": "karaoke_projectile",
+  "symbol": "sprite_karaoke_projectile",
+  "states": [
+    {
+      "id": "98e715c2-ea5e-4785-aa4f-a2fb0d0c084d",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "152de5bd-de41-42b5-a536-7050c8420255",
+          "frames": [
+            {
+              "id": "c2773c79-b00a-40a7-8373-909146151244",
+              "tiles": [
+                {
+                  "id": "1e8437d8-d6de-4e3d-bca8-a447eb0a40a7",
+                  "x": 1,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": -8,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ef8ef65c-324b-41cf-9df6-2198739f461b",
+          "frames": [
+            {
+              "id": "2d17d31e-a8e6-4aab-99bf-a37d45a1181d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9410ca06-cdd6-43de-b7e8-8bb752688485",
+          "frames": [
+            {
+              "id": "a03c1331-216a-4a1d-8ad5-1648009dd612",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "58653a71-7f72-4920-865f-8724d0887a30",
+          "frames": [
+            {
+              "id": "14a3e5fe-9075-430d-9326-34f77da6e320",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ff10d49c-9bc5-483d-a830-33379731f668",
+          "frames": [
+            {
+              "id": "16be0ddc-d473-400f-aeb6-1686bc86942f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "37332e8a-fbce-4bae-83de-3e55e133bfbf",
+          "frames": [
+            {
+              "id": "10312dfc-d4a7-48cc-a3d2-b0e0fe641cc7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "19be1d91-3836-4466-adae-1b3401b8afa7",
+          "frames": [
+            {
+              "id": "edae5e38-3af3-4f14-890f-ca6e96ce662d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f0f6944c-1885-463a-863d-9a226b6f2e76",
+          "frames": [
+            {
+              "id": "965fed04-d7df-4357-9e1e-4002ec7d705a",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 1,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 8,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "karaoke_projectile.png",
+  "width": 8,
+  "height": 8,
+  "checksum": "e3b782b63fd16526a9b4a7ae9b5349908028a0da"
+}

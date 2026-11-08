@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "b7e3dfe8-c28f-4a77-8534-917a98dec357",
+  "name": "vodka",
+  "symbol": "sprite_vodka",
+  "states": [
+    {
+      "id": "c2ae277d-5469-43cc-bdfb-02b494521631",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "2677ef62-e68d-4e78-8a2e-68eb1077a987",
+          "frames": [
+            {
+              "id": "9fe3440e-a6cf-41df-b4d7-5250f5e0902a",
+              "tiles": [
+                {
+                  "id": "ecbf724a-e8d5-4cac-a487-9a13750563dd",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "f1675064-10b4-4992-92ba-6270c192b353",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8e4dcaac-6d06-4bff-8d53-4d87a1e749c0",
+          "frames": [
+            {
+              "id": "2e231614-25fb-41a9-9e68-0f38355decad",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a7978427-83b2-4930-bf86-5089c5aaf9ba",
+          "frames": [
+            {
+              "id": "f953a2e9-504c-4adb-9873-be47b755acd3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8141381a-0664-42c5-8058-1a2b7b29e5ed",
+          "frames": [
+            {
+              "id": "9940754a-e924-49ad-8314-e47fd8840736",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "696821b8-787b-4d0e-9899-f7d1c70a0acc",
+          "frames": [
+            {
+              "id": "3bceea78-b514-4cca-b11e-19dcd04714b9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "42aa86cb-8556-4fc8-a0e3-cb37871d2186",
+          "frames": [
+            {
+              "id": "6d9c8ed5-a942-45c3-860d-2fc948f014c3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7dc5f82a-5a1e-44df-bb83-95db0e966d06",
+          "frames": [
+            {
+              "id": "86a7b018-8b1c-4d73-a294-ea22588fa275",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "55ae83f6-0bf5-4e54-be6e-944b42129b8f",
+          "frames": [
+            {
+              "id": "2d11ef75-2ba6-4274-b846-8543232a0040",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "vodka.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "bfae0de82f705ec3a9ae60b7d03de376fdddd029"
+}

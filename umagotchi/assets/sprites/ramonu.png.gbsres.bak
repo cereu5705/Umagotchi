@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "44eaadc4-f980-46ca-98f5-298585f84937",
+  "name": "ramonu",
+  "symbol": "sprite_ramonu",
+  "states": [
+    {
+      "id": "9df8ff74-b719-4fc4-b979-b9a486f1af89",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "6f1b6589-82f0-498e-9958-883b7b31673d",
+          "frames": [
+            {
+              "id": "bc5fdb38-f817-4d01-9921-492db6b816b0",
+              "tiles": [
+                {
+                  "id": "9fabefcf-1b81-4be3-b2d7-5a044da3b756",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "a7f95bfb-8a79-492c-babd-978dacbf1a5e",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "e24bc17a-2fb8-44c1-a42b-879b4eb1b4fb",
+          "frames": [
+            {
+              "id": "01f17583-28ed-4712-8c1f-9ac1cb787839",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "91aa5528-a29e-45c5-9b52-2af0a2bcb60d",
+          "frames": [
+            {
+              "id": "455310f4-1794-4e06-b70c-9e4472025edb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b9bcda50-97dc-4b8c-ab3f-fec13258290f",
+          "frames": [
+            {
+              "id": "abe469b0-0c8c-4ab6-927a-5888edbc1916",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "347851dc-599e-45a8-8774-1028088d1874",
+          "frames": [
+            {
+              "id": "957e9712-4809-4a68-bfed-38b5b04191c2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8d039ed3-1251-4952-aff7-0c2446bb8e53",
+          "frames": [
+            {
+              "id": "d421e3fa-7c31-44c5-9053-1cb6046abb4c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "192a76be-e855-47d4-9efb-89dd705e4001",
+          "frames": [
+            {
+              "id": "a9881c63-1599-4cb9-8394-273f4bd4cd33",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0dfd2d20-1b3c-40ea-949d-4af69e3ecdd1",
+          "frames": [
+            {
+              "id": "0ec3db5d-d8bd-4f91-848f-e418b6878d88",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "ramonu.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "7fa282d7bb02145a8f64d8dc5c46fb833751391a"
+}

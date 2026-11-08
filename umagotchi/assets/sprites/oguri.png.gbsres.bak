@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "09136c5f-29c1-4541-b700-0597bcecd600",
+  "name": "oguri",
+  "symbol": "sprite_oguri",
+  "states": [
+    {
+      "id": "dd739e02-035d-4172-9c34-9c42ba49acc7",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "3f6e0d47-a371-4f46-bee9-8f74b4ed585c",
+          "frames": [
+            {
+              "id": "5a00fe8e-bb42-4b67-9a64-e8405f333be5",
+              "tiles": [
+                {
+                  "id": "6fc0ad45-d5a8-4544-ad54-16f83826d453",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "ca259ca7-5158-41f1-9741-a63187cf8fd4",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "67405032-4f40-4ea6-80b7-61172931c3d9",
+          "frames": [
+            {
+              "id": "6aa062be-5d92-4f73-8b15-fd3824834554",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "17fdfbbd-07d0-482e-9203-f1fc6dad31c9",
+          "frames": [
+            {
+              "id": "24f99e3a-e7c7-4c8f-ab45-bc0ae2009a79",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8682a756-3afc-4461-9675-a1027d495055",
+          "frames": [
+            {
+              "id": "6b77b640-a0af-49e5-b6b3-d111a85862b2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6685b655-e756-432e-9119-6f9dcccff51a",
+          "frames": [
+            {
+              "id": "72f9ee3d-1cd5-4fcc-a80c-50fdb6c5a286",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "bee6f134-eec4-4563-8725-8d01148ac308",
+          "frames": [
+            {
+              "id": "3e09f10d-874c-47c0-98a9-c9ab6b3899b9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "45b556f0-6589-454f-bee6-7b7587154337",
+          "frames": [
+            {
+              "id": "86981e06-d7fc-435d-9b18-92aab9d55834",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "75382bfe-dd4e-4809-8abd-8e61c558b6ce",
+          "frames": [
+            {
+              "id": "f8e4adc7-b0f7-4ae5-81fd-3db1cca11d03",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "oguri.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "2c939d5c5069230bf9177eb6c1a27372e13f4475"
+}

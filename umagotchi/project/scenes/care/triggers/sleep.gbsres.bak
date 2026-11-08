@@ -1,0 +1,15 @@
+{
+  "_resourceType": "trigger",
+  "id": "34d5d87e-9a05-430a-9b02-afed8b1d2d98",
+  "name": "sleep",
+  "prefabId": "",
+  "x": 12,
+  "y": 12,
+  "symbol": "trigger_5",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 2,
+  "script": [],
+  "leaveScript": [],
+  "_index": 4
+}

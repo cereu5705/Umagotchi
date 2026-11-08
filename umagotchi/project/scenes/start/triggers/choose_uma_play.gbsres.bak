@@ -1,0 +1,52 @@
+{
+  "_resourceType": "trigger",
+  "id": "d9202a6d-5ac6-465d-9972-0cefd1e72610",
+  "name": "choose_uma/play",
+  "prefabId": "",
+  "x": 14,
+  "y": 1,
+  "symbol": "trigger_0",
+  "prefabScriptOverrides": {},
+  "width": 6,
+  "height": 5,
+  "script": [
+    {
+      "command": "EVENT_RNG_SEED",
+      "args": {
+        "__collapse": false
+      },
+      "id": "262d3c2c-a314-4c9d-aa3d-7e0168331073"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "7",
+        "value": {
+          "type": "number",
+          "value": 100
+        }
+      },
+      "id": "4ee14daf-d05e-49be-bb0c-2c5b456d9649"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "c2455701-cf2e-44b6-896c-36b157f340d2",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        },
+        "direction": "",
+        "fadeSpeed": "2",
+        "__collapse": false
+      },
+      "id": "6d6eff06-5132-4c0a-bd2b-4d16b5698d44"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

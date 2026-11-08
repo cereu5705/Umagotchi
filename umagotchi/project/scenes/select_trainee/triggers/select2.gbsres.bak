@@ -1,0 +1,118 @@
+{
+  "_resourceType": "trigger",
+  "id": "4cb33fac-6433-4bc4-9eab-a08a85ae9a6c",
+  "name": "select2",
+  "prefabId": "",
+  "x": 9,
+  "y": 10,
+  "symbol": "trigger_0",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "id": "ddd9e192-adc7-42f0-8e0a-ac98ee2c9b91",
+      "command": "EVENT_GROUP",
+      "args": {
+        "__comment": false,
+        "__collapse": false,
+        "__label": "Select Starter"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_COMMENT",
+            "args": {
+              "text": "select starter",
+              "__collapse": true
+            },
+            "id": "6acb154c-7000-4e6e-a8fd-7362bb10b977"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Do you wish to\npick this trainee?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "63165d4d-21ad-423d-9d38-6d7df9b905fa"
+          },
+          {
+            "command": "EVENT_CHOICE",
+            "args": {
+              "variable": "L0",
+              "trueText": "Yes",
+              "falseText": "No",
+              "__collapse": true
+            },
+            "id": "8965145c-7fce-492e-b44e-19a92a6b9d25"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "variable",
+                "value": "L0"
+              },
+              "__collapseElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "18",
+                    "value": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "2d240cc9-7a8d-4fd6-a9ea-7ba0826e9b1d"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "0017a014-2733-4c78-bacc-a34d822c1453",
+                    "x": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 12
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "1a7e5bb8-19e4-4e8d-a1d4-1500fffeb8e5"
+                }
+              ],
+              "false": []
+            },
+            "id": "ef77f659-6f62-49d6-830e-1fc3127b45bb"
+          }
+        ]
+      }
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

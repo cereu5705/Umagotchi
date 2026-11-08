@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "1313a7b0-e014-4ad7-93e5-e2770805e7d8",
+  "name": "race_sprint",
+  "symbol": "bg_race_sprint",
+  "tileColors": "",
+  "filename": "race_sprint.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

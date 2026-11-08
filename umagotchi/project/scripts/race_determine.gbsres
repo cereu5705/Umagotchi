@@ -1,0 +1,56 @@
+{
+  "_resourceType": "script",
+  "id": "d306ed56-c179-4ce9-830a-681a520cb494",
+  "name": "race_determine",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "outcome",
+      "passByReference": true
+    },
+    "V1": {
+      "id": "V1",
+      "name": "race_won",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "script_9",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gte",
+          "valueA": {
+            "type": "variable",
+            "value": "V0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 5
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "V1",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "497ac79b-cc50-4217-a4a1-8b43421313a0"
+          }
+        ],
+        "false": []
+      },
+      "id": "a65bb86e-cb18-4167-9943-235a72271c33"
+    }
+  ]
+}

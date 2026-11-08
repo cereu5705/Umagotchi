@@ -1,0 +1,34 @@
+{
+  "_resourceType": "trigger",
+  "id": "5b89e586-68b0-43da-bac4-3db2de2521e0",
+  "name": "food",
+  "prefabId": "",
+  "x": 4,
+  "y": 12,
+  "symbol": "trigger_2",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "417ee844-f9ce-4bcd-a918-736e21bb6f76",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2",
+        "__collapse": false
+      },
+      "id": "fab70185-a7de-4ae5-9b82-4de1aa5d305a"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

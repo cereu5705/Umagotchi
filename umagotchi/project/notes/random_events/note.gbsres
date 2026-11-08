@@ -1,0 +1,11 @@
+{
+  "_resourceType": "note",
+  "id": "efa1b117-f66e-4f52-8892-15f1fa4f76b8",
+  "name": "Random Events",
+  "x": 1024,
+  "y": 808,
+  "width": 20,
+  "height": 3,
+  "content": "Triggers at Turn_End",
+  "labelColor": "green"
+}

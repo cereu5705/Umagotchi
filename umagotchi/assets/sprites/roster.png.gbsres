@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "09209270-1dea-488e-94f1-2bc682648e04",
+  "name": "roster",
+  "symbol": "sprite_roster",
+  "states": [
+    {
+      "id": "61bfeb8a-1824-45f5-8ab8-3976b0db43d8",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "081b5e16-50a6-41ac-8678-32b3b4af6bbe",
+          "frames": [
+            {
+              "id": "b68bf66f-ad21-49cb-8f45-dced25b425de",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d983945a-4eb7-45d5-89ce-317a1de84227",
+          "frames": [
+            {
+              "id": "d87f8aef-dac6-4e98-8bac-968309f3f002",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4b02cc09-e063-4835-900b-86d7aa3dbb26",
+          "frames": [
+            {
+              "id": "739c9ccb-f597-475e-9f5e-9386b69113de",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9e36d2ff-f9dc-4523-833e-ebc0f9b4b7d6",
+          "frames": [
+            {
+              "id": "a296a4e5-9b77-4abe-af91-347ae34ef07a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3e8871bc-7908-47f2-aef5-85e9139e1cba",
+          "frames": [
+            {
+              "id": "6d483009-c22e-4c34-aef1-fe7e859a2ecc",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1e521854-1aa0-450d-94ee-dd0723870aef",
+          "frames": [
+            {
+              "id": "b96e81f8-a310-48d5-9158-5ac427ac33f8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "331017b3-dee4-4c32-891e-b093282491dd",
+          "frames": [
+            {
+              "id": "514c5ea2-7cd7-4ba3-8244-56665ea8822d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7b040532-6fad-4f0b-9075-41939128b99d",
+          "frames": [
+            {
+              "id": "bada1018-4426-4435-b7db-46ee6dd17000",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "roster.png",
+  "width": 96,
+  "height": 32,
+  "checksum": "4b336275b66b39ef0f4a53afe5e996b570598bf2"
+}

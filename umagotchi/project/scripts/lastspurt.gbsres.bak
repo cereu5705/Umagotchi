@@ -1,0 +1,249 @@
+{
+  "_resourceType": "script",
+  "id": "24ef33be-2040-42dc-aa06-94564ecdc0f2",
+  "name": "lastspurt",
+  "description": "a = spd\nb = bonus stat\nd = stm\ne = track stam requirements\n\nbonus stat (stam req):\nsprint - spd (150)\nmile - wit (200)\nmed - pwr (320)\nlong - stm (500)\ndirt - guts (230)",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "trainee score",
+      "passByReference": true
+    },
+    "V1": {
+      "id": "V1",
+      "name": "uma bonus stat",
+      "passByReference": true
+    },
+    "V2": {
+      "id": "V2",
+      "name": "rival score",
+      "passByReference": true
+    },
+    "V3": {
+      "id": "V3",
+      "name": "rival bonus stat",
+      "passByReference": true
+    },
+    "V4": {
+      "id": "V4",
+      "name": "track stam req",
+      "passByReference": true
+    },
+    "V5": {
+      "id": "V5",
+      "name": "outcome",
+      "passByReference": true
+    },
+    "V6": {
+      "id": "V6",
+      "name": "overall",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "script_8",
+  "script": [
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "V0",
+        "expression": "$00$/100 + rnd($V1$/100)/2",
+        "__collapse": true
+      },
+      "id": "382acc2d-e5ad-42e8-9646-60926427feea"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "V4"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "V0",
+              "value": {
+                "type": "div",
+                "valueA": {
+                  "type": "variable",
+                  "value": "V0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 2
+                }
+              }
+            },
+            "id": "154a7cd0-1f7c-4b83-9ca5-785e76c4d9a0"
+          }
+        ],
+        "false": []
+      },
+      "id": "e98032e9-1f8f-4bf6-ab7f-a136099dc63e"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "V2",
+        "expression": "$19$/100 + rnd($V3$/100)/2",
+        "__collapse": true
+      },
+      "id": "3f91e418-470d-4b9b-8800-357276673698"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "21"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "V4"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "V2",
+              "value": {
+                "type": "div",
+                "valueA": {
+                  "type": "variable",
+                  "value": "V2"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 2
+                }
+              }
+            },
+            "id": "603535ea-0b44-426d-ac18-9fe35a17588e"
+          }
+        ],
+        "false": []
+      },
+      "id": "34181836-db9c-4134-95ca-5b0180fd7113"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "V0"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "V2"
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "V5",
+              "value": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "id": "10621cc5-0d05-48ad-a671-f9305d85aaa6"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "V0"
+                },
+                "valueB": {
+                  "type": "variable",
+                  "value": "V2"
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "V5",
+                    "value": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "f0f36253-d0f7-4d7a-b0ce-54fc375ae7f7"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "V5",
+                    "value": {
+                      "type": "number",
+                      "value": 0
+                    }
+                  },
+                  "id": "c1f468fe-eb87-475d-a991-b5559e41576d"
+                }
+              ]
+            },
+            "id": "3f9f104b-1ce3-49a6-bd9d-ff06c0c6744c"
+          }
+        ]
+      },
+      "id": "9c963f0b-5209-48a1-b8e6-d89ae68305da"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "V6",
+        "value": {
+          "type": "add",
+          "valueA": {
+            "type": "variable",
+            "value": "V6"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "V5"
+          }
+        }
+      },
+      "id": "df788f23-e915-4528-b13c-8a858a63c21c"
+    }
+  ]
+}

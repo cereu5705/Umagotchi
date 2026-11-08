@@ -1,0 +1,243 @@
+{
+  "_resourceType": "actor",
+  "id": "1a66df60-32bd-4ecc-90b0-182a0c5f498f",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "c7f8f82b-02ff-4777-a3a4-ea4a1f5d71ef",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 0.5,
+  "animSpeed": 31,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_50",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 18
+        },
+        "y": {
+          "type": "number",
+          "value": 8
+        }
+      },
+      "id": "1a1582fb-4e40-4a25-b028-770b09f8a6b5"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "ded50d72-7bc5-4d47-bd9a-3e2b25f69f82"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "T1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 10
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "horizontal",
+              "units": "tiles"
+            },
+            "id": "cce9eb33-1835-407d-a510-006c4c69497a"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Oh! It\nseems she's\nprepared a",
+                "gift to show her\ngratitude. What\ncould it be?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "dabe1cbf-b8ae-4587-b824-fffcf6d929c4"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "1a66df60-32bd-4ecc-90b0-182a0c5f498f",
+              "spriteStateId": "clawmachine",
+              "loopAnim": false
+            },
+            "id": "2be8f319-e20b-4c1d-9ff7-ed5bed03582c"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "T1",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "933b0e87-7baf-486c-83da-7f755a227bdc"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": {
+                "type": "number",
+                "value": 1
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "e8bea342-d308-4dbb-b72b-8bf50b798040"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "1a66df60-32bd-4ecc-90b0-182a0c5f498f",
+              "spriteSheetId": "b4eb4173-65d0-4e26-abc1-aaa0c5d2df72"
+            },
+            "id": "1903d0a1-e5c3-44f0-9aaf-583223c01413"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "35",
+              "value": {
+                "type": "add",
+                "valueA": {
+                  "type": "variable",
+                  "value": "35"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 3
+                }
+              }
+            },
+            "id": "8715fb82-6744-429a-a959-9867a418b74f"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": {
+                "type": "number",
+                "value": 1
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "c045b4f7-ca03-4458-999f-f501bbe4e001"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "How wonderful! I\ncan't wait to see\nwhat else your",
+                "trainee has in\nstore for the\nfuture!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "a0e55ad9-e3bb-4ec5-ab1d-568e971c65ac"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "ff80bcce-4d59-4d13-aef2-b5499e4d6454",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": 4
+            },
+            "id": "1bc6c693-a229-4909-9473-32306cd58570"
+          }
+        ],
+        "false": []
+      },
+      "id": "f55221b0-b7dd-41a2-82b5-277c4ce75690"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 11,
+  "y": 8,
+  "_index": 2
+}

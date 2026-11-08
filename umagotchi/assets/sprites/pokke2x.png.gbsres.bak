@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "73e65d57-e379-48ff-9805-3a0009f3eccd",
+  "name": "pokke2x",
+  "symbol": "sprite_pokke2x",
+  "states": [
+    {
+      "id": "104caa14-8ea7-4272-b0cc-7c26acf46a5a",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "65ddb5c3-ef57-400b-9e97-6fe175b0a75f",
+          "frames": [
+            {
+              "id": "c865c3b2-1205-41d2-bae9-1c7afbbedc34",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "dc57c1b3-eba7-47fe-bf75-556adbc06b4d",
+          "frames": [
+            {
+              "id": "42755f43-b907-486c-8fa2-7d4099cb0921",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b87a040a-6374-43aa-be13-690566dd510c",
+          "frames": [
+            {
+              "id": "511a8cdb-06a5-4fbf-8694-6922a74f9da3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1e8630e3-d53e-439b-9f27-d9899909c281",
+          "frames": [
+            {
+              "id": "6ca69fd7-4695-4007-94cf-b8a3f8af143e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "373438d3-b6e3-4472-a9f6-8bbc093577ca",
+          "frames": [
+            {
+              "id": "48d9c493-0957-4a03-8f00-4d3bd4b5b98b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "88a27463-3939-4193-a8c9-934b2216d0da",
+          "frames": [
+            {
+              "id": "cbf935f0-2c7b-48b9-b099-c0504f56e06f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0572395f-42ce-464a-9e3b-fb3a2d316e76",
+          "frames": [
+            {
+              "id": "88ce8a05-d555-46bf-b9b7-f6e41bcc9a31",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "adbc8b79-4b53-402a-b3dc-caa6364fac44",
+          "frames": [
+            {
+              "id": "58be02e9-c4e7-4c65-b431-e0b19360f7f1",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "pokke2x.png",
+  "width": 64,
+  "height": 64,
+  "checksum": "590b50b9bbc5318bd06bc407fb1ec67f44f1107a"
+}

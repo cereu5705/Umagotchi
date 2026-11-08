@@ -1,0 +1,388 @@
+{
+  "_resourceType": "scene",
+  "id": "eae729cb-1ab9-4df7-9854-c6f8fd3755c1",
+  "_index": 11,
+  "name": "Karaoke",
+  "backgroundId": "3dd2892b-00f1-4809-930b-f2a4e8bc5605",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "SHMUP",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "ea239fd5-3cdb-4c01-bd01-bafbe0500ca9",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 3,
+  "symbol": "scene_12",
+  "x": 320,
+  "y": 528,
+  "script": [
+    {
+      "command": "EVENT_HIDE_SPRITES",
+      "args": {
+        "__collapse": true
+      },
+      "id": "1d8996df-777b-4516-8f34-e3bcbc8cded4"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "05f72fda-666f-402b-9fff-f44efbaf692f",
+        "__collapse": true
+      },
+      "id": "804c1b9d-f093-4837-8b7e-67b668390492"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "10",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "4d6aa446-5bb2-4de6-b244-290d66b7eb6b"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "12",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "8b7c3309-3bd3-4ebb-ac5a-46736fc8dac7"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "13",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "0ebef0e3-5df0-452e-bd43-2fa6440a4a53"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "14",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "9cf3853f-21dc-45dc-8b03-b2024e3d3c13"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "15",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "831b71fa-7b7b-421d-9bd5-309b9bb7cb47"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "16",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "a9cb60ce-eb44-44b5-9a71-1fa1913a8286"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "17",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "5015d4a3-6928-4375-bcf5-da11ebd2958e"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lte",
+          "valueA": {
+            "type": "variable",
+            "value": "8"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "8"
+            },
+            "id": "3c14d47a-4c21-4200-911e-b99f118d4b43"
+          }
+        ],
+        "false": []
+      },
+      "id": "d161a557-90cf-4126-b915-86163c600090"
+    },
+    {
+      "command": "BR_EVENT_ADVANCED_DIALOGUE_vB",
+      "args": {
+        "text": [
+          "Your trainee\nvisits a karaoke\nbar.",
+          "Press A to hit\nthose high notes!"
+        ],
+        "__scriptTabs": "text",
+        "boxHeight": 5,
+        "boxWidth": 20,
+        "boxX": 0,
+        "boxY": 13,
+        "showBorder": "true",
+        "showActors": false,
+        "clearPrevious": "true",
+        "textInv": "false",
+        "textX": 1,
+        "textY": 14,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "avatarId": "",
+        "__collapse": true
+      },
+      "id": "d691b945-3c95-41d7-bef9-23796ff9b2ec"
+    },
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "- i was thinking rhythm game originally, but the other rec events are short, so shouldnt this be short too?\n- maybe a shmup-esque where you have to hit certain tokens to 'make' a performance?\n- depending on the tokens hit, you get certain buffs?",
+        "__collapse": true
+      },
+      "id": "b1af9ef2-a60e-499c-91ad-3181e3db6317"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 16
+        },
+        "__collapse": true
+      },
+      "id": "d0046b20-8654-4ad0-8481-a0c417967965"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "9d785172-e830-4651-b570-4974e6b97125"
+      },
+      "id": "99eea71a-7c07-46f8-911d-c080940eb26e"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "9e0de614-05cd-422d-8398-c1d8eb9b6d83"
+      },
+      "id": "2e43da08-1ef0-4262-9fae-96ba386e5e9f"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "5339e2b4-c9a3-48e5-a298-e83b6568176c"
+      },
+      "id": "81f43e32-f671-491b-ad65-baabbb0fa4c6"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "147d209f-8f74-4f87-8863-b59a59063fb2"
+      },
+      "id": "25e58872-cc98-4c8a-a4c0-e71bbbae8b2e"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "ec0cced8-244f-4792-b72c-b17b6f20c037"
+      },
+      "id": "07e141f5-0d0f-4351-a3f7-34996abdbd36"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "b014ea0a-ec53-4b3f-b7c9-790f8428fc81"
+      },
+      "id": "46b6aa31-02a1-4d6f-9877-72317ca3d1f1"
+    },
+    {
+      "command": "EVENT_SHOW_SPRITES",
+      "args": {},
+      "id": "21d768e9-92dd-4c79-a694-59296e7d6af5"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true,
+        "__comment": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "0017a014-2733-4c78-bacc-a34d822c1453",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 1
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "b65b97b5-9347-4576-8182-21c84b2d0c47"
+          }
+        ]
+      },
+      "id": "4b0d7f84-cd6d-495b-a9ed-32c57b603c4d"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_RATE_LIMIT",
+            "args": {
+              "variable": "L0",
+              "time": {
+                "type": "number",
+                "value": 0.5
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_LAUNCH_PROJECTILE",
+                  "args": {
+                    "__section": "projectile",
+                    "spriteSheetId": "efc8ab80-3ecc-4abe-be09-1472e8169c1c",
+                    "spriteStateId": "",
+                    "actorId": "$self$",
+                    "x": 0,
+                    "y": 0,
+                    "directionType": "direction",
+                    "otherActorId": "$self$",
+                    "direction": "up",
+                    "angle": 0,
+                    "angleVariable": "L0",
+                    "targetActorId": "$self$",
+                    "speed": 3,
+                    "animSpeed": 15,
+                    "lifeTime": 1,
+                    "initialOffset": 3,
+                    "loopAnim": true,
+                    "destroyOnHit": true,
+                    "collisionGroup": "3",
+                    "collisionMask": [
+                      "3"
+                    ]
+                  },
+                  "id": "e3126bae-2736-4b46-9634-2878aa399544"
+                },
+                {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "tone",
+                    "priority": "medium",
+                    "pitch": 6,
+                    "frequency": 400,
+                    "duration": 0.02,
+                    "wait": false,
+                    "effect": 0
+                  },
+                  "id": "96c79206-a150-4a74-bbc3-9dd6fa350961"
+                }
+              ]
+            },
+            "id": "eb6783c6-d446-437c-84ac-3dafc32f29c2"
+          }
+        ]
+      },
+      "id": "1601f478-c3a0-4d30-879f-ba1aacd8b69d"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "labelColor": "orange",
+  "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "autoFadeEventCollapse": true,
+  "monoBGP": [
+    3,
+    2,
+    1,
+    0
+  ],
+  "monoOBP0": [
+    0,
+    1,
+    3
+  ],
+  "monoOBP1": [
+    0,
+    2,
+    3
+  ]
+}

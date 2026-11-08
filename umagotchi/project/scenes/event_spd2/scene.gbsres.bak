@@ -1,0 +1,31 @@
+{
+  "_resourceType": "scene",
+  "id": "91237ae8-bc1c-4698-aea0-869f19e49e8d",
+  "_index": 28,
+  "name": "event_spd2",
+  "backgroundId": "f30313ff-8bc6-4b06-99f5-50f49b31a2fb",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_29",
+  "x": 1024,
+  "y": 864,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "af96c99a-cfe5-49f0-ad6f-22b9ec92d830"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

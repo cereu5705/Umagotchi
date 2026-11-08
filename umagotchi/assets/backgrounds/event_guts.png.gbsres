@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "bba75d1b-60ea-49c7-8018-95e8565862b3",
+  "name": "event_guts",
+  "symbol": "bg_event_guts",
+  "tileColors": "",
+  "filename": "event_guts.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

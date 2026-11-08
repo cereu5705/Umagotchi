@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "38c9511b-b449-4ee1-923b-24a3ea3721ef",
+  "name": "event_spd",
+  "symbol": "bg_event_spd",
+  "tileColors": "",
+  "filename": "event_spd.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

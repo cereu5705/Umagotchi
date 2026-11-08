@@ -1,0 +1,15 @@
+{
+  "_resourceType": "trigger",
+  "id": "5b89e586-68b0-43da-bac4-3db2de2521e0",
+  "name": "train",
+  "prefabId": "",
+  "x": 4,
+  "y": 16,
+  "symbol": "trigger_2",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 2,
+  "script": [],
+  "leaveScript": [],
+  "_index": 1
+}

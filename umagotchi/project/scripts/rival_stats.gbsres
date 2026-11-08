@@ -1,0 +1,362 @@
+{
+  "_resourceType": "script",
+  "id": "614912de-fba0-4535-9e69-6586d2d90010",
+  "name": "rival_stats",
+  "description": "0 = sprint\n1 = mile\n2 = med\n3 = long\n4 = dirt",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "race_type",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "script_19",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "V0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "19",
+              "expression": "($25$+1)*(300)+rnd(25)",
+              "__collapse": true
+            },
+            "id": "cae9c26f-bfe7-4d8b-9c4d-573963468273"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "21",
+              "expression": "($goal_count+1)*(100)",
+              "__collapse": true
+            },
+            "id": "c64aa828-e166-4cae-81c4-72e21a46cc25"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "20",
+              "expression": "($goal_count+1)*(200)",
+              "__collapse": true
+            },
+            "id": "df11db57-4187-4fc6-9972-faa0025c512a"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "22",
+              "expression": "($25$+1)*(150)",
+              "__collapse": true
+            },
+            "id": "296f55c9-7ca0-4784-8e06-491afeaaac93"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "23",
+              "expression": "($25$+1)*(175)",
+              "__collapse": true
+            },
+            "id": "0670260b-5b0b-417a-a9cf-c596e0b4cfd7"
+          }
+        ],
+        "false": []
+      },
+      "id": "aefc59ea-ea74-4d4b-beda-ca760675f8a1"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "V0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "19",
+              "expression": "($25$+1)*(280)",
+              "__collapse": true
+            },
+            "id": "6304ca0c-a281-4098-930f-2374a1a34bb7"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "21",
+              "expression": "($goal_count+1)*(250)",
+              "__collapse": true
+            },
+            "id": "420cab13-5b92-4913-a79d-3fe05a5284b5"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "20",
+              "expression": "($goal_count+1)*(180)",
+              "__collapse": true
+            },
+            "id": "d5605cba-7d23-4132-aaf0-ed95c41bff5a"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "22",
+              "expression": "($25$+1)*(150)",
+              "__collapse": true
+            },
+            "id": "c39ebf4b-f8f8-4f00-bf8d-0246078d536c"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "23",
+              "expression": "($25$+1)*(200)+rnd(25)",
+              "__collapse": true
+            },
+            "id": "df384f88-deb8-49f5-bc85-a2a3e49f50fb"
+          }
+        ],
+        "false": []
+      },
+      "id": "a0297091-05f4-49b7-9914-9b61c1fe5b93"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "V0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "19",
+              "expression": "($25$+1)*(250)",
+              "__collapse": true
+            },
+            "id": "442de464-6ddf-4ff6-a76c-156be3452437"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "21",
+              "expression": "($25$+1)*(200)",
+              "__collapse": true
+            },
+            "id": "026406ef-5830-4e23-a7db-4fd83bd76980"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "20",
+              "expression": "($25$+1)*(240)+rnd(25)",
+              "__collapse": true
+            },
+            "id": "9666ce46-6a1e-450b-9b7d-6cb93e2bb3e0"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "22",
+              "expression": "($25$+1)*(140)",
+              "__collapse": true
+            },
+            "id": "4b8cbd58-1b51-4fee-ab06-351e2a0b8a98"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "23",
+              "expression": "($25$+1)*(130)",
+              "__collapse": true
+            },
+            "id": "5b355fa9-ba04-450b-8413-96beb90f23c6"
+          }
+        ],
+        "false": []
+      },
+      "id": "f351e73f-cfec-46a3-b1b2-9ba21e6437a0"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "V0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 4
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "19",
+              "expression": "($25$+1)*(225)",
+              "__collapse": true
+            },
+            "id": "191c7528-4aa5-4dea-830f-6798e2b625bb"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "21",
+              "expression": "($25$+1)*(250)+rnd(25)",
+              "__collapse": true
+            },
+            "id": "e12743b3-786b-4936-b3cc-7995a38cfb4c"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "20",
+              "expression": "($goal_count+1)*(180)",
+              "__collapse": true
+            },
+            "id": "5cea2280-0b11-4214-8ff4-bcc222fafa05"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "22",
+              "expression": "($25$+1)*(160)",
+              "__collapse": true
+            },
+            "id": "a1c4c8f2-f1a9-4647-9edc-59d4087b5cda"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "23",
+              "expression": "($25$+1)*(140)",
+              "__collapse": true
+            },
+            "id": "824dda30-4db5-47b9-8dad-0568ea08c922"
+          }
+        ],
+        "false": []
+      },
+      "id": "c8cdc5ef-b053-4301-845b-26b6e6775a4b"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "V0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 5
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "19",
+              "expression": "($25$+1)*(265)",
+              "__collapse": true
+            },
+            "id": "1a7ac211-6d69-431e-b7b1-e767d17a4546"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "21",
+              "expression": "($goal_count+1)*(170)",
+              "__collapse": true
+            },
+            "id": "55259940-2cf7-4a9c-a183-722c3362e8e1"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "20",
+              "expression": "($goal_count+1)*(180)",
+              "__collapse": true
+            },
+            "id": "d5db333a-6034-4de8-83ee-8cb663569b3b"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "22",
+              "expression": "($25$+1)*(200)+rnd(25)",
+              "__collapse": true
+            },
+            "id": "3b66679f-b5aa-4d00-b8c4-f5fa4b3fbc8e"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "23",
+              "expression": "($25$+1)*(150)",
+              "__collapse": true
+            },
+            "id": "10f30555-e79f-4fd5-ad83-6d6534631a95"
+          }
+        ],
+        "false": []
+      },
+      "id": "5c1117fd-40c9-42fc-b97e-22b1dc2d3044"
+    }
+  ]
+}
