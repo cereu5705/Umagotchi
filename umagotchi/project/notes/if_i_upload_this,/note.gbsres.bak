@@ -1,0 +1,11 @@
+{
+  "_resourceType": "note",
+  "id": "cc04836a-a154-486e-a9c0-b3d43b4b894b",
+  "name": "If I upload this,",
+  "x": 144,
+  "y": 376,
+  "width": 20,
+  "height": 15,
+  "content": "Sorry for how much of a massive clusterfuck the code(blocks? whatever you call these) turned out to be. Definitely should have been using scripts more, but I realized too late and I lost the energy to keep my code more orderly. The Umadoro Mode is especially egregious, but it was also a last minute addition. If you want to laugh at some atrocious programming, you can check that, the minigames, and races out.\n\nThe easiest way to 'add' umas is to just replace a trainee's sprites(in the sprites folder, it's the [name].png and the [name]2x.png with your own oshi's. Otherwise, you'll have to dive through various scenes and scripts to add onto the roster, although it is doable. Off the top of my head, the scripts with 'name' in them, the trainee select, and umadoro mode would need the most work? Probably.\n\nThe race simulations are pretty bullshit random formulas, and if you want to make careers shorter, just lower the rival stats to more acceptable statlines.",
+  "labelColor": "green"
+}

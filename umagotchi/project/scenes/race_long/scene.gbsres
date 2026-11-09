@@ -28,8 +28,8 @@
       "command": "EVENT_VARIABLE_MATH_EVALUATE",
       "args": {
         "variable": "19",
-        "expression": "($25$+1)*(225)",
-        "__collapse": true
+        "expression": "($25$+1)*(175)",
+        "__collapse": false
       },
       "id": "f6d56096-9aa7-4515-a047-52a53a31eaa7"
     },
@@ -38,7 +38,7 @@
       "args": {
         "variable": "21",
         "expression": "($25$+1)*(250)+rnd(25)",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "1d14c595-47a6-4eb0-8875-63d7eb1000ee"
     },
@@ -46,8 +46,8 @@
       "command": "EVENT_VARIABLE_MATH_EVALUATE",
       "args": {
         "variable": "20",
-        "expression": "($goal_count+1)*(180)",
-        "__collapse": true
+        "expression": "($goal_count+1)*(130)",
+        "__collapse": false
       },
       "id": "c961bd95-0411-4d57-a82e-4271b6dcef17"
     },
@@ -55,8 +55,8 @@
       "command": "EVENT_VARIABLE_MATH_EVALUATE",
       "args": {
         "variable": "22",
-        "expression": "($25$+1)*(160)",
-        "__collapse": true
+        "expression": "($25$+1)*(110)",
+        "__collapse": false
       },
       "id": "8e836080-fad6-43b8-8e1b-d3f9f3ef3e4a"
     },
@@ -64,8 +64,8 @@
       "command": "EVENT_VARIABLE_MATH_EVALUATE",
       "args": {
         "variable": "23",
-        "expression": "($25$+1)*(140)",
-        "__collapse": true
+        "expression": "($25$+1)*(100)",
+        "__collapse": false
       },
       "id": "090bac6e-a0fb-4e27-b662-fcc30eb68722"
     },

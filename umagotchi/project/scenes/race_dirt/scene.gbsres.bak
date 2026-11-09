@@ -112,21 +112,6 @@
       "id": "5f353adf-bc45-4c08-80eb-0fcac0ff6e38"
     },
     {
-      "command": "EVENT_WAIT",
-      "args": {
-        "time": {
-          "type": "number",
-          "value": 1
-        },
-        "frames": {
-          "type": "number",
-          "value": 1
-        },
-        "__collapse": true
-      },
-      "id": "92192586-3a25-4a9f-9ed4-b08552bedd7e"
-    },
-    {
       "command": "EVENT_ACTOR_MOVE_TO",
       "args": {
         "__section": "movement",
@@ -299,21 +284,6 @@
         ]
       },
       "id": "21325512-f3db-44e7-9a39-2abd9e4f041b"
-    },
-    {
-      "command": "EVENT_WAIT",
-      "args": {
-        "time": {
-          "type": "number",
-          "value": 1
-        },
-        "frames": {
-          "type": "number",
-          "value": 1
-        },
-        "__collapse": true
-      },
-      "id": "58d0ae18-87dd-4a5d-be37-adc8c5d753d3"
     },
     {
       "command": "EVENT_ACTOR_MOVE_TO",
@@ -490,21 +460,6 @@
       "id": "d3c4a71a-00ca-41db-bbdd-266ded2114f0"
     },
     {
-      "command": "EVENT_WAIT",
-      "args": {
-        "time": {
-          "type": "number",
-          "value": 1
-        },
-        "frames": {
-          "type": "number",
-          "value": 1
-        },
-        "__collapse": true
-      },
-      "id": "8b256aae-b796-4ba0-80d7-6f0d5f99d9a6"
-    },
-    {
       "command": "EVENT_ACTOR_MOVE_TO",
       "args": {
         "__section": "movement",
@@ -673,21 +628,6 @@
         ]
       },
       "id": "5c99e06b-9de9-4d09-bf51-8130248ba9c1"
-    },
-    {
-      "command": "EVENT_WAIT",
-      "args": {
-        "time": {
-          "type": "number",
-          "value": 1
-        },
-        "frames": {
-          "type": "number",
-          "value": 1
-        },
-        "__collapse": true
-      },
-      "id": "5008b675-aa75-49c9-8833-5b812aeed1c6"
     },
     {
       "command": "EVENT_ACTOR_MOVE_TO",
@@ -874,21 +814,6 @@
         ]
       },
       "id": "65243793-3a20-424d-8f7c-215cd600a067"
-    },
-    {
-      "command": "EVENT_WAIT",
-      "args": {
-        "time": {
-          "type": "number",
-          "value": 1
-        },
-        "frames": {
-          "type": "number",
-          "value": 1
-        },
-        "__collapse": true
-      },
-      "id": "ac9c5982-d710-4e23-a378-fc257cd54fc2"
     },
     {
       "command": "EVENT_ACTOR_MOVE_TO",
